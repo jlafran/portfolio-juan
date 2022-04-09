@@ -6,7 +6,6 @@ import Macbook from '../../../components/MacbookVideo/macbook';
 import TitleProjects from "../../../components/TitleProjects/titleBig"
 import InfoBigTextProjects from "../../../components/InfoBigTextProjects/InfoBigText"
 import HalfBig from '../../../components/HalfBig/half_and_half';
-import RecomendedProjects from "../../../components/RecomendedProjects/recomended";
 import Footer from "../../../components/Footers/Footer2";
 import UpNext from "../../../components/UpNext/upNext";
 

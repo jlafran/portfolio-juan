@@ -1,15 +1,19 @@
 import React,{Fragment} from "react";
 import Footer from "../components/Footers/Footer2";
-import styles from '../css/inicio.css';
 import HelloYou from "../components/HelloYou/index";
 import ContactForm from "../components/Form/ContactForm";
-import '../css/font.css'
 import IndexNavbar from "../components/Navbars/Navbar5";
 import Clients from '../components/Clients/clients'
 import Projects from "../components/Projects/projects";
+import Frameworks from "../components/Frameworks/InfoBigText"
+
+import styles from '../css/inicio.css';
+import '../css/font.css'
 import "../css/projects.css"
 import "../css/proyectos.css"
 import "../css/template.css"
+
+import json from "../assets/json/framework.json"
 
 class Index extends React.Component {
   state = {
@@ -110,7 +114,12 @@ class Index extends React.Component {
                 />
               </svg>
           </div>
-
+    <Frameworks
+      title="Estos son los lenguajes y frameworks"
+      color=" que utilizó!"
+      bodytitle="A través de los proyectos desarrollados aprendí a utilizar estas herramientas, junto a metodologías y solución de problemas."
+      json={json}
+    />
     <Clients className="adelante"/>
     </div>
     </section>
