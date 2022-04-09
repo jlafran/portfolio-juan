@@ -1,0 +1,61 @@
+.title-info-big{
+  background: linear-gradient(45deg, var(--color), var(--color2));
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2.5vw;
+  z-index: 1;
+  padding-bottom: 1.3vw;
+  line-height: 3.1vw;;
+}
+
+.pink-info{
+  --color:#efd5ff;
+  --color2: #647af4;
+  }
+
+.default-info{
+  --color: #FC466B;
+  --color2: #3F5EFB;
+  }
+
+.green-info{
+  --color: #c2e59c;
+  --color2: #64b3f4;
+  }
+
+.yellow-info{
+  --color: #ff51b9;
+	--color2: #ffe259;
+  }
+
+.body-info-big{
+  color: white;
+  font-size: 1.6vw;
+  z-index: 1;
+}
+
+
+/* DIVS */
+.sectionoverflow3b {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 10%;
+}
+
+.textc-big {
+  width: 40%;
+  margin: auto 0;
+  text-align: left;
+}
+
+.imagec-right-big {
+  width: 50%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* END - STANDARD LEFT/RIGHT CODE */

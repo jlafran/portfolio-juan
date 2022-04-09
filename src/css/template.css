@@ -1,0 +1,30 @@
+.main-products-template{
+	text-align:center;
+	background-color:#0c1014;
+	position: relative;
+	padding-top: 8vh;
+}
+
+.wrapper-framework{
+	margin-top: 8vw;
+}
+.wrapper-framework-white{
+	background-color: white;
+	padding-top: 6vw;
+	padding-bottom: 5vw;
+}
+.horizontal-container-frameworks li{
+	display: inline-block;
+	margin: 0 1.5em;
+}
+
+.title-framework{
+	font-size: 1.9vw;
+	color: white;
+	padding-bottom: 3vh;
+}
+.title-framework-white{
+	font-size: 1.9vw;
+	color: black;
+	padding-bottom: 3vh;
+}

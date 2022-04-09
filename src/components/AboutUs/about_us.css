@@ -1,0 +1,87 @@
+.index{
+  z-index: 1;
+  
+}
+  .textoAU{
+    color: rgb(0, 79, 238);
+    margin-left: -950px;
+    z-index: 1;
+  }
+  
+  .textoAU2{
+    top: 100px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+  }
+  
+  .icono{
+    color: rgb(80, 138, 244);
+    font-size: 23px;
+    text-align:start;
+    float: left;
+    z-index: 1;
+  }
+
+  .boxSV4 .icon .fas{
+    color: #404044;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  p.info {
+    overflow: hidden;
+    color: white;
+    padding-left: 2rem;
+    z-index: 1;
+  }
+
+  p.title-blue{
+    background-image: linear-gradient(45deg, rgb(80, 138, 244), #ffd001);;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 3.5rem;
+    z-index: 1;
+  }
+
+  p.title-white{
+    color: white;
+    font-size: 2rem;
+    z-index: 1;
+  }
+
+  .container-titles{
+      padding-bottom: 2rem;
+      z-index: 1;
+  }
+  .line-down{
+      padding-bottom: 1rem;
+      padding-right: 1rem;
+      z-index: 1;
+  }
+
+  .body-about{
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    z-index: 1;
+    padding-top: 17vh;
+  }
+
+  .center{
+    z-index: 1;
+  }
+
+  .padding-left-info{
+    border-collapse: separate;
+    border-spacing: 1rem 0;
+    z-index: 1;
+  }
+
+  .font-size-about{
+    font-size: 1.4rem;
+  }

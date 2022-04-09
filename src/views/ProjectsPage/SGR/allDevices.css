@@ -1,0 +1,32 @@
+.wrapper-mockup-devices-SGR{
+    height:60.5vw;
+    position:relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: linear-gradient(180deg, rgb(14, 16, 24) 0%, #20387b 70%);
+}
+
+.img-mockup-devices-SGR{
+    height: 85%;
+    width: 80vw;
+    position: absolute;
+}
+
+.wrapper-text-SGR{
+    position: absolute;
+    font-weight: bold;
+    text-align: left;
+    top: 6vw;
+    right: 72vw;
+    width: 22vw;
+    color: white;
+}
+.title-text-sgr{
+    font-size: 2vw;
+}
+.subtitle-text-sgr{
+    margin-top: -1vw;
+    font-size: 1.3vw;
+    line-height: 1.4vw;
+}

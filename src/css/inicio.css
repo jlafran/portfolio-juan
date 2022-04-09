@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+:root {
+  /* COLORS */
+  --background1: #5a5d59;
+  --background2: #191E22;
+  --font_color:  #F1F5FB;
+  --font_color2: #888A8C;
+  --line_color: #5d5f61;
+}
+.HelloYou{
+justify-content:center;
+vertical-align: middle;
+align-items:center;
+background-color: rgb(20, 22, 33);
+}
+
+.hello-you-subtitle-underline{
+  text-decoration: underline;
+  display: inline-flex;
+  font-style: italic;
+  color: #dd9032;
+}
+
+
+.seccionAU{
+  height: 100%;
+  width: 100%;
+  background: rgb(20, 22, 33);
+  position: relative;
+  display: block;
+  }
+
+
+.indexz0{
+  z-index: 0;
+}
+
+.zig-zag2{
+  top: 97%;
+  right: -2.9%;;
+  position:absolute;
+  display: block;
+  z-index: 0;
+  transform: rotate(10deg);
+}
+
+.atras{
+  z-index: 0;
+}
+.adelante{
+  z-index: 10;
+}
+.zig-zag{
+  top: 39%;
+  left: -5%;
+  position:absolute;
+  display: block;
+  transform: rotate(210deg);
+  z-index: 0;
+}
+.corona{
+  top: 9.5%;
+  left: -0.5%;
+  position:absolute;
+  display: block;
+  transform:rotate3d(1,1,0,190deg);
+}
+
+.line-horizontal{
+  top: 29%;
+  right: 3%;
+  position:absolute;
+  display: block;
+}
+.linea-vertical{
+  top: 19%;
+  left: 26%;
+  position:absolute;
+  display: block;
+  transform:rotate(68deg);
+}
+
+.triangulo{
+  top: 67%;
+  right: -11%;
+  position:absolute;
+  display: block;
+  transform: rotate(-6deg);
+}  
+.circle{
+  top: 91%;
+  left: -2%;
+  position:absolute;
+  display: block;
+  transform: rotate(-4deg);
+  overflow: visible;
+  width: 10rem;
+  height: 10rem;
+}  
+
+section.section-contact{
+  background: linear-gradient(35deg, #2d0b00 0%, rgb(20, 22, 33) 50%), url(https://grainy-gradients.vercel.app/noise.svg);
+}

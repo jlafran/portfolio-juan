@@ -1,0 +1,43 @@
+.split-two-image-sgr {
+    height:40vw;
+    z-index: 1;
+    top: 0;
+    width: 50%;
+    display: flex;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-two-image {
+  left: 0;
+  float: left;
+  background: linear-gradient(180deg, rgba(4,43,110,1) 0%, rgb(34, 89, 173) 80%);
+}
+
+.right-two-image {
+  right: 0;
+  background-color: #FEFFFF;
+}
+
+.img-mockup-screens-sgr{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.img-mockup-window-sgr{
+    height: 21vw;
+    width: 35vw;
+    position: relative;
+    -webkit-box-shadow: -5px 8px 25px -4px #000000; 
+    box-shadow: -5px 8px 25px -4px #000000;
+}
+
+@media only screen and (max-width: 700px) {
+    .split-two-image-sgr {
+      width: 100%;
+      height:53.5vw;
+    }
+  }

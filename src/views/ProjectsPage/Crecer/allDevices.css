@@ -1,0 +1,15 @@
+.wrapper-mockup-devices{
+    height:56.5vw;
+    width: 100%;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #0c086d 0%, #1876D2 80%);
+}
+
+.img-mockup-devices{
+    height: 40vw;
+    width: 90vw;
+    position: relative;
+}

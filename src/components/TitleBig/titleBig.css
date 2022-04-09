@@ -1,0 +1,42 @@
+.body-about-info-title-big{
+    text-align: left;
+    margin: 0 auto;
+    width: 85%;
+    z-index: 1;
+
+  }
+
+.container-titles-info-title-big{
+  z-index: 1;
+
+}
+
+.title-info-title-big{
+    background: linear-gradient(45deg, var(--color), var(--color2));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 5.5vw;
+    line-height: 6.2vw;
+    z-index: 1;
+    text-align: center;
+  }
+
+.pink-title{
+  --color:#3a8ce2;
+  --color2: #f3b0cd;
+  }
+
+.default-title{
+  --color:#ea814d;
+  --color2: #eda6ee;
+  }
+
+.green-title{
+  --color: #065999;
+  --color2: #5dd46f;
+  }
+
+.yellow-title{
+  --color: #FDBB2D;
+	--color2: #22C1C3;
+  }

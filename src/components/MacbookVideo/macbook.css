@@ -1,0 +1,34 @@
+.section-mockup{
+    background-color: #FEFFFF;
+    padding-bottom: 9vw;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper-mockup{
+    height:45.5vw;
+    width: 100%;
+    padding-bottom: 2vw;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-mockup-macbook{
+    position:relative;
+}
+
+.video-goodgame{
+    height: 27.8vw;
+    width: 50vw;
+    left: 4vw;
+    top: 1.4vw;
+    position: absolute;
+}
+
+.img-goodgame{
+    height: 33.55vw;
+    width: 57.5vw;
+    position: relative;
+}

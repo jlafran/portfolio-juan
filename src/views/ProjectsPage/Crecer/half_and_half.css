@@ -1,0 +1,46 @@
+.split-two-image {
+    height:53.5vw;
+    z-index: 1;
+    top: 0;
+    width: 50%;
+    display: flex;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-two-image {
+  left: 0;
+  float: left;
+  background: linear-gradient(180deg, rgba(4,43,110,1) 0%, rgb(34, 89, 173) 80%);
+}
+
+.right-two-image {
+  right: 0;
+  background-color: #FEFFFF;
+}
+
+.wrapper-mockup-half{
+  position:relative;
+}
+
+.img-mockup-ipads{
+    height: 48vw;
+    width: 48vw;
+    position: relative;
+}
+
+.img-mockup-portrait{
+    height: 30vw;
+    width: 24vw;
+    position: relative;
+    -webkit-box-shadow: -5px 8px 25px -4px #000000; 
+    box-shadow: -5px 8px 25px -4px #000000;
+}
+
+@media only screen and (max-width: 700px) {
+    .split-two-image {
+      width: 100%;
+    }
+  }

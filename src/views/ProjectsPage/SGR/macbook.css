@@ -1,0 +1,21 @@
+.section-mockup-macbook-SGR{
+    padding-bottom: 9vw;
+    background-color: #FEFEFE;
+}
+
+.wrapper-mockup-macbook-SGR{
+    height:45.5vw;
+    width: 100%;
+    padding-bottom: 2vw;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-mockup-macbook-SGR{
+    height: 33.55vw;
+    width: 54.5vw;
+    position: relative;
+}

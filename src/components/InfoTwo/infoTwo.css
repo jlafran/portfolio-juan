@@ -1,0 +1,48 @@
+.body-about-info-two{
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    z-index: 1;
+  }
+
+.container-titles-info-two{
+  z-index: 1;
+  float: left;
+  width: 40%;
+  margin-right: 2rem;
+}
+
+.title-info-two{
+  background: linear-gradient(45deg, var(--color), var(--color2));
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2rem;
+  z-index: 1;
+  align-items: center;
+}
+
+.pink-two{
+  --color: #f4868f;
+	--color2: #FFC371;
+  }
+
+.default-two{
+	--color: #df9bdb;
+	--color2: #2EBDFF;
+  }
+
+.green-two{
+  --color: #97deb3;
+	--color2: #0575E6;
+  }
+
+.yellow-two{
+	--color:#d53369;
+	--color2: #e1bf75;
+  }
+
+.body-info-two{
+  color: white;
+  font-size: 1.7rem;
+  z-index: 1;
+}

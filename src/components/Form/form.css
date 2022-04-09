@@ -1,0 +1,148 @@
+.body-form{
+  display: inline-block;
+  justify-content: center;
+  text-align: left;
+  margin-left: 10%;
+  margin-right:10%;
+  width: 80%;
+  border: transparent;
+}
+
+.row{
+  flex-direction: row;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.center-text{
+  text-align: center;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+}
+
+.title-form{
+    font-family: Monserrat;
+    font-size: 2.1875rem;
+}
+
+.input-text{
+    font-family: Monserrat;
+    font-size: 1.5625rem;
+}
+
+.small{
+  width: 26%;
+  height: 100%;
+}
+
+.big{
+  width: 67%;
+  height: 100%;
+}
+
+.left{
+  float: left;
+}
+
+.margin{
+  margin-left: .5rem;
+}
+
+.padding-bottom{
+  padding-bottom: 8%;
+}
+.padding-bottom2{
+  padding-bottom: 5%;
+}
+.padding-bottom3{
+  padding-bottom: 4%;
+}
+.padding-right{
+  padding-right: 1.2rem;
+}
+
+.field-input{ 
+    outline: 0 !important;
+    border-bottom: 3px solid #3a36d8 !important;
+    border-color: #3a36d8;
+    width: 100%;
+    height: 100%;
+    color: #3a36d8;
+  }
+  .field-input::placeholder {
+    color: #3a36d8;
+  }
+
+  .field-input:not(:placeholder-shown) {
+    border-color: transparent !important;
+  }
+  .field-input:focus {
+    transition-delay: .05s;
+    border-color: transparent !important; 
+  }
+
+.font-color{
+    color: #3a36d8
+}
+
+.select-form{
+  outline: 0px !important;
+    border-bottom: 3px solid #3a36d8 !important;
+    border-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0px !important;
+    text-overflow: '';
+    -moz-appearance:none !important; /* Firefox */
+    -webkit-appearance:none !important; /* Safari and Chrome */
+    appearance:none !important;
+    background-color: transparent;
+}
+*:focus {
+  outline: none !important;
+}
+
+.drop{
+  padding-left: 1rem;
+}
+
+
+button.send-form-boton {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  transition: all .5s ease;
+  color: #3a36d8;
+  border: 3px solid #3a36d8;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  padding: 15px 35px;
+  outline: none;
+  border-radius: 100px;
+  margin-top: 2rem;
+}
+button.send-form-boton:hover {
+  background-color: #3a36d8;
+  color: white;
+}
+
+.borde{
+  position: flex;
+  padding-bottom: 0rem;
+  padding-top: 3rem;
+  width: 64%;
+  margin-right: 18%;
+  margin-left: 18%;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

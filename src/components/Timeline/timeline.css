@@ -1,0 +1,113 @@
+  /* ---- Outside Padding ---- */ 
+  .wrapper-timeline{
+
+  }
+ /* ---- Text ---- */ 
+  .title-timeline{
+    font-size: 4.5vw;
+    color: white;
+  }
+  .wrapper-text-timeline{
+    padding-bottom: 5%;
+  }
+  .title-timeline-blue{
+    background: linear-gradient(45deg, var(--color), var(--color2));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    vertical-align: baseline;
+  }
+
+  .pink-timeline{
+    --color: #FFAFBD;
+	  --color2: #ffc3a0;
+    }
+  
+  .default-timeline{
+    --color: #ff6e7f;
+	  --color2: #7594e2;
+    }
+  
+  .green-timeline{
+    --color: #7F7FD5;
+	  --color2: #159957;
+    }
+  
+  .yellow-timeline{
+    --color:#ffe100;
+	  --color2: #3ad59f;
+    }
+
+  .subtitle-timeline{
+    flex-wrap: wrap;
+    font-size: 2vw;
+    line-height: 2.7vw;
+    color: white;
+    width: 70%;
+
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .title-card-timeline{
+    font-size: 1.9vw;
+    margin-bottom: 20%;
+  }
+
+  .text-card-timeline{
+    font-size: 1.1vw;
+  }
+
+  /* ---- Timeline ---- */
+  .line-timeline {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background: white;
+      height: .3vw;
+      margin-top: 4.5vw;
+  }
+
+  .circle-timeline{
+    width: 4.5vw;
+    height: 4.5vw;
+    font-size: 1.3vw;
+    color: #fde74c;
+    background-color: black;
+    display: flex;
+    border-radius: 100%;
+    border:.3vw solid #ffffff;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10%;
+    z-index: 1;
+
+  }
+.container-timeline{
+  display: flex;
+
+  color: white;
+  width: auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container-each-square-timeline{
+  align-items: center;
+  background-color: black;
+  flex-wrap: wrap;
+  width: 22%;
+  padding-bottom: 4%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+.container-each-square-timeline:nth-last-child(2){
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.inside-square-timeline{
+  padding-top: 15%;
+}

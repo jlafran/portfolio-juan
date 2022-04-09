@@ -1,0 +1,73 @@
+/*
+  Normalize
+*/
+@import-normalize;
+
+/*
+  Custom selectors
+*/
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+@custom-selector :--link a, a:visited, a:active, a:link;
+@custom-selector :--select-input select, option;
+@custom-selector :--inputs input, select, textarea;
+
+/*
+  Base styles
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth-scroll;
+}
+
+#__next {
+  @apply .flex;
+  @apply .flex-col;
+  @apply .flex-grow;
+}
+
+/* Reset */
+
+fieldset,
+:--heading,
+ol,
+ul,
+li,
+p {
+  @apply .p-0;
+  @apply .m-0;
+}
+
+:--link {
+  @apply .text-inherit;
+  @apply .text-violet;
+}
+
+a:hover,
+a:focus,
+a:active {
+  @apply .no-underline;
+}
+
+:--link,
+button,
+select {
+  @apply .cursor-pointer;
+}
+
+:--inputs,
+button {
+  @apply .font-family-inherit;
+  @apply .text-inherit;
+  @apply .bg-transparent;
+}
+
+button,
+fieldset,
+:--inputs {
+  @apply .border-0;
+}

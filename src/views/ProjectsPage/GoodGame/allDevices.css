@@ -1,0 +1,33 @@
+.wrapper-mockup-devices-goodgame{
+    height:53.5vw;
+    width: 100%;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #00A34E 0%, #78d681 80%);
+}
+
+.img-mockup-devices-goodgame{
+    height: 59vw;
+    width: 56vw;
+    position: relative;
+}
+
+.wrapper-text-goodgame{
+    position: absolute;
+    font-weight: bold;
+    text-align: left;
+    top: 4vw;
+    right: 74vw;
+    width: 22vw;
+    color: white;
+}
+.title-text-goodgame{
+    font-size: 2vw;
+}
+.subtitle-text-goodgame{
+    margin-top: -1vw;
+    font-size: 1.3vw;
+    line-height: 1.4vw;
+}

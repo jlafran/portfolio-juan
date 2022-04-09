@@ -1,0 +1,24 @@
+/* Custom fonts */
+@font-face {
+  font-display: auto;
+  font-family: "Objectivity";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/static/fonts/Objectivity-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Objectivity";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/static/fonts/Objectivity-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Objectivity";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/static/fonts/Objectivity-ExtraBold.woff2") format("woff2");
+}

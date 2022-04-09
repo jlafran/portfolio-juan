@@ -1,0 +1,46 @@
+.split-two-image {
+    height:53.5vw;
+    z-index: 1;
+    top: 0;
+    width: 50%;
+    display: flex;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-two-image-goodgame {
+  left: 0;
+  float: left;
+  background-color: #FEFFFF;
+}
+
+.right-two-image-goodgame {
+  right: 0;
+  background: linear-gradient(180deg, #00A34E 0%, #87f291 80%);
+}
+
+.wrapper-mockup-half{
+  position:relative;
+}
+
+.img-mockup-ipads-goodgame{
+    height: 38vw;
+    width: 28vw;
+    position: relative;
+}
+
+.img-mockup-portrait-goodgame{
+    height: 24vw;
+    width: 38vw;
+    position: relative;
+    -webkit-box-shadow: -5px 6px 32px -2px rgba(0,0,0,0.85); 
+    box-shadow: -5px 6px 32px -2px rgba(0,0,0,0.85);
+}
+
+@media only screen and (max-width: 700px) {
+    .split-two-image-goodgame {
+      width: 100%;
+    }
+  }
