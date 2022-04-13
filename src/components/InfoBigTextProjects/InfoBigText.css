@@ -1,7 +1,7 @@
 .wrapper-all-projects-big{
   background-color: white;
   width: 100%;
-  padding-top: 8vw;
+  padding-top: 20vmin;
 }
 
 
@@ -14,8 +14,8 @@
 
   .title-info-text-big-projects{
     color: black;
-    font-size: 5vw;
-    line-height: 6vw;
+    font-size: 4vmax;
+    line-height: 6vmax;
     z-index: 1;
     text-align: center;
   }
@@ -24,13 +24,13 @@
     text-align: center;
     width: 70%;
     margin: 0 auto;
-    margin-top: 2vw;
+    margin-top: 2vmin;
   }
 
   .body-info-text-big{
     color: #1f1f22aa;
-    font-size: 1.6vw;
-    line-height: 2.1vw;
+    font-size: 1.6vmax;
+    line-height: 2.1vmax;
     z-index: 1;
     margin: 0 auto;
   }

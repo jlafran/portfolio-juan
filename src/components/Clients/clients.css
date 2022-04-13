@@ -2,71 +2,54 @@
     position: relative;
     display: block;
     box-sizing: border-box;
-    height: 100vh;
     display: flex;
     align-items: center;
     height: auto;
     text-align: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 3;
+    margin-left: 4vw;
+    overflow: hidden;
   }
   
   .our-clients ul {
-    padding-left: 2rem;
+    padding-left: 6vw;
     margin: 0;
   }
   
   .our-clients ul li {
     list-style: none;
     display: inline-block;
-    width:150px;
-    height:90px;
     position: relative;
-    overflow: hidden;
-    cursor:pointer;
-    margin: 10px;
-    transition: .5s;
-    padding: 2.1rem 1rem;
+    justify-content: center;
+    padding: 0rem 3vw;
   }
   
-  .our-clients ul li img {
-    width: 100%;
-    height: 100%;
-    filter: brightness(0) invert(1);
+  /*Image Size*/
+  .image-logo-clients-1 {
+    width: 9vmax;
+    height: 7vmax;
   }
-  .our-clients ul li img {
-    width: 100%;
-    height: 100%;
-    filter: brightness(0) invert(1);
+  .image-logo-clients-2 {
+    width: 5vmax;
+    height: 5vmax;
   }
-
-  .our-clients-not ul li img:nth-child(1) {
-    transform: translateY(0);
-    transition: .5s;
-  }
-  .our-clients-not ul li img:nth-child(2) {
-    transform: translateY(0);
-    transition: .5s;
-  }
-  
-  /*Hover-Section*/
-  
-  
-  .our-clients-not ul li:hover img:nth-child(1) {
-    transform: translateY(-100%);
-    transition: .5s;
-  }
-  .our-clients-not ul li:hover img:nth-child(2) {
-    transform: translateY(-100%);
-    transition: .5s;
+  .image-logo-clients-3 {
+    width: 220px;
+    height: 50px;
   }   
 
   .title-clients{
-      font-size: 1.5rem;
+      font-size: 1.7vmax;
+      justify-content: center;
+      text-align: center;
       color: white;
-      float: left;
-      width: 20%;
-      z-index: 1;
-      text-shadow: 2px 2px 4px black;
-      
+      width: 25%;
+  }
+
+  @media screen and (max-width: 400px) {
+    .our-clients{
+      margin-left: 4vw;
+      overflow: hidden;
+    }
   }

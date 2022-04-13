@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../../components/Navbars/Navbar5";
+import Header from "../../../components/Header/Header"
 import { Icon } from '@iconify/react';
 
 import Macbook from '../../../components/MacbookVideo/macbook';
@@ -33,7 +33,7 @@ export default class Crecer extends React.Component {
   render() {
     return (
         <>
-          <Navbar></Navbar>
+          <Header/>
           <section className='containerProyectos'>
             {/********** TITLE ***************/}
             <div>

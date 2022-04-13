@@ -93,6 +93,7 @@ a.underline-hover-effect {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
+    padding-top: 5vmin;
     
     }
     
@@ -205,4 +206,10 @@ a.underline-hover-effect {
     
     .copyright{
     text-align: center;
+    }
+
+    .line-footer{
+      width: 85%;
+      margin: 0 auto;
+      border-bottom: 1px solid rgb(165, 163, 163);
     }

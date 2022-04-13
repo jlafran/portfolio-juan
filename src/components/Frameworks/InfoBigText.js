@@ -5,9 +5,9 @@ import { Icon } from '@iconify/react';
 
 const Frameworks = (props) => {
 
-    const {title,color,bodytitle,json}=props;
-    const height= "6.5vmax"
-    const width= "4.5vmax"
+    const {title,color,bodytitle,front,back,db}=props;
+    const height= "5vmax"
+    const width= "4.8vmax"
     const renderCard=(card,index)=>{
         return(
             <div className='border-icon-framework'>
@@ -15,8 +15,7 @@ const Frameworks = (props) => {
                     icon={card.icon} 
                     style={{width:width, height:height}} 
                 />
-                <p>React</p>
-                <p>biblioteca Javascript de código abierto diseñada para crear .</p>
+                <p className='medium logo-text-framework' >{card.title}</p>
             </div>
                 
         )
@@ -33,11 +32,32 @@ const Frameworks = (props) => {
         </div>
         <div className="container-frameworks-inicio">
             <div className='wrapper-framework-text'>
-                <p>Backend</p>
+                <p className='bold category-text-framework first-text'>Backend</p>
+                <p className='bold category-text-framework'>Frontend</p>
             </div>
 
             <div className='wrapper-framework-card'>
-                {json.map(renderCard)}
+                {back.map(renderCard)}
+            </div>
+        </div>
+
+        <div className="container-frameworks-inicio">
+            <div className='wrapper-framework-text'>
+                <p className='bold category-text-framework'>Languages</p>
+            </div>
+
+            <div className='wrapper-framework-card'>
+                {front.map(renderCard)}
+            </div>
+        </div>
+
+        <div className="container-frameworks-inicio">
+            <div className='wrapper-framework-text'>
+                <p className='bold category-text-framework'>Data Base</p>
+            </div>
+
+            <div className='wrapper-framework-card'>
+                {db.map(renderCard)}
             </div>
         </div>
         </>

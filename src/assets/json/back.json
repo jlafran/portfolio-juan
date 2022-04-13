@@ -1,0 +1,34 @@
+[
+    {
+        "icon":"logos:nodejs",
+        "title":"Node"
+    },
+    {
+        "icon":"simple-icons:express",
+        "title":"Express"
+    },
+    {
+        "icon":"logos:spring-icon",
+        "title":"Spring"
+    },
+    {
+        "icon":"logos:hibernate",
+        "title":"Hibernate"
+    },
+    {
+        "icon":"logos:react",
+        "title":"React"
+    },
+    {
+        "icon":"vscode-icons:file-type-mocha",
+        "title":"Mocha"
+    },
+    {
+        "icon":"vscode-icons:file-type-html",
+        "title":"Html"
+    },
+    {
+        "icon":"vscode-icons:file-type-css",
+        "title":"Css"
+    }
+]

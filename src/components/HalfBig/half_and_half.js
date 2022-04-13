@@ -2,7 +2,7 @@ import React,{Fragment} from "react";
 import styles from "./half_and_half.css"
 
 const HalfBig=(props)=> {
-  const {imgRight,title,text}=props;
+  const {imgRight,title,text,text2,text3}=props;
     
     return (
     <>
@@ -16,7 +16,9 @@ const HalfBig=(props)=> {
         <div class="split-two-big-text left-two-text-img">
           <div className="wrapper-text-half-big">
             <h2 className='semibold title-text-half-big'>{title}</h2>
-            <p className='medium subtitle-text-half-big'>{text}</p>
+            <p className='regular subtitle-text-half-big'>{text}</p>
+            <p className='regular subtitle-text-half-big'>{text2}</p>
+            <p className='medium subtitle-text-half-big'>{text3}</p>
           </div>
         </div>
 
@@ -24,7 +26,6 @@ const HalfBig=(props)=> {
           <img src={imgRight} className="img-mockup-website-big" />
         </div>
 
-        <div className='filler-white-half-big' />
         
       </section>
   </>

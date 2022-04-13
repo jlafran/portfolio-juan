@@ -7,6 +7,7 @@ export default function Footer() {
   return (
     <>
     <div class='containerFooter medium'>
+    <div className="line-footer"/>
       <div class='row'>
         <div class='col'>
           <img src={Logo} class='logo'></img>
@@ -45,7 +46,6 @@ export default function Footer() {
 
               </div>
             </div>
-            <hr></hr>
             <p class='copyright'>Calccitanium - Todos los derechos reservados</p>
         </div>
         </div>

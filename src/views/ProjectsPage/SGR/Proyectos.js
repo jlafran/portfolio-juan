@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from '../../../components/Navbars/Navbar5';
+import Header from "../../../components/Header/Header"
 import { Icon } from '@iconify/react';
 
 import HalfBig from "../../../components/HalfBig/half_and_half"
@@ -31,7 +31,7 @@ export default class SGR extends React.Component {
 
     return (
         <>
-    <Navbar></Navbar>
+    <Header/>
     
     <section className='containerProyectos'>
 

@@ -9,20 +9,18 @@ const ContactForm = () => {
   const [values, setValues] = useState({
     fullName: '',
     email: '',
-    role: '',
     message: ''
   });
   const [status, setStatus] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.send('service_rcqcv7p', 'template_k4hxv75', values, '74fmx9gs_m9H1VskP')
+    emailjs.send('service_ujkfx7z', 'template_1aixpkx', values, '9NXQflqusnuXYNb0P')
       .then(response => {
         console.log('SUCCESS!', response);
         setValues({
           fullName: '',
           email: '',
-          role: '',
           message: ''
         });
         setStatus('SUCCESS');
@@ -56,8 +54,7 @@ const ContactForm = () => {
       <form className="body-form center"onSubmit={handleSubmit}>
         <h3 className="title-form bold font-color center-text padding-bottom2">Let's chat together</h3>
         <InputField value={values.fullName} handleChange={handleChange} padding="padding-bottom" style="small"label="My name is" name="fullName" type="text" placeholder=" " />
-        <InputField value={values.email} handleChange={handleChange} padding="padding-bottom2" style="big" label="you can contact me at" name="email" type="email" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @  " />
-        <SelectField handleChange={handleChange} name="role" label="Area" placeholder="Select" />
+        <InputField value={values.email} handleChange={handleChange} padding="padding-bottom2" style="big" label="You can contact me at" name="email" type="email" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @  " />
         <TextareaField value={values.message} handleChange={handleChange} label="I'd like to talk about" name="message" placeholder=" " />
         <button type="submit" className="send-form-boton font-color bold "> Send </button>
       </form>
@@ -68,7 +65,7 @@ const ContactForm = () => {
 
 const renderAlert = () => (
   <div className="px-4 py-3 leading-normal text-blue-700 bg-blue-100 rounded mb-5 text-center">
-    <p>your message submitted successfully</p>
+    <p>Your message submitted successfully</p>
   </div>
 )
 

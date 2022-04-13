@@ -1,7 +1,7 @@
 .wrapper-title-big-projects{
   height:100%;
   padding-top: 7vw;
-  padding-bottom: 13vw;
+  padding-bottom: 15vmin;
   position:relative;
   display: flex;
   justify-content: center;
@@ -17,8 +17,8 @@
 
 .title-info-title-big-projects{
     color: #fefefe;
-    font-size: 6.8vw;
-    line-height: 7.8vw;
+    font-size: 6vmax;
+    line-height: 7.4vmax;
     z-index: 1;
     text-align: center;
 }
@@ -32,8 +32,8 @@
 
 .subtitle-info-title-big-projects{
   color: #fefefe;
-  font-size: 1.3vw;
-  padding-bottom: 1.1vw;
+  font-size: 1.3vmax;
+  padding-bottom: 1.5vmin;
 }
 
 .green-title{

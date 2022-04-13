@@ -374,9 +374,9 @@ const HelloYou = memo((props) => {
             <a href="/proyectos/sgr" className="bold hello-you-subtitle-underline">
               <strong className="bold">Juan Cruz</strong> 
             </a>
-            <span className="medium">, 24 años,</span> 
+            <span className="medium">, 24 years,</span> 
             <strong className="bold"> Developer </strong> 
-            <span className="medium">de</span> 
+            <span className="medium">from</span> 
             <strong className="bold"> Buenos Aires, Argentina</strong>
             <span className="medium">.</span>
             </animated.h1>

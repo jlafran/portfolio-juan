@@ -1,0 +1,18 @@
+[
+    {
+        "icon":"vscode-icons:file-type-mongo",
+        "title":"MongoDB"
+    },
+    {
+        "icon":"logos:redis",
+        "title":"Redis"
+    },
+    {
+        "icon":"file-icons:neo4j",
+        "title":"Neo4j"
+    },
+    {
+        "icon":"logos:mysql",
+        "title":"MySql"
+    }
+]

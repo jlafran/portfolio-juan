@@ -21,6 +21,13 @@ html,body
   --font_color:  #F1F5FB;
   --font_color2: #888A8C;
   --line_color: #5d5f61;
+  --violet: #783AFF;
+  --orange: #FF6D44;
+  --green: #69C759;
+  --yellow: #F9C45C;
+  --blue: #465DFF;
+  --grey-light: #b9bfc5;
+  --page-width: 930px;
 }
 .HelloYou{
 justify-content:center;
@@ -45,74 +52,29 @@ background-color: rgb(20, 22, 33);
   display: block;
   }
 
-
-.indexz0{
-  z-index: 0;
-}
-
-.zig-zag2{
-  top: 97%;
-  right: -2.9%;;
-  position:absolute;
-  display: block;
-  z-index: 0;
-  transform: rotate(10deg);
-}
-
-.atras{
-  z-index: 0;
-}
-.adelante{
-  z-index: 10;
-}
-.zig-zag{
-  top: 39%;
-  left: -5%;
-  position:absolute;
-  display: block;
-  transform: rotate(210deg);
-  z-index: 0;
-}
-.corona{
-  top: 9.5%;
-  left: -0.5%;
-  position:absolute;
-  display: block;
-  transform:rotate3d(1,1,0,190deg);
-}
-
-.line-horizontal{
-  top: 29%;
-  right: 3%;
-  position:absolute;
-  display: block;
-}
-.linea-vertical{
-  top: 19%;
-  left: 26%;
-  position:absolute;
-  display: block;
-  transform:rotate(68deg);
-}
-
-.triangulo{
-  top: 67%;
-  right: -11%;
-  position:absolute;
-  display: block;
-  transform: rotate(-6deg);
-}  
-.circle{
-  top: 91%;
-  left: -2%;
-  position:absolute;
-  display: block;
-  transform: rotate(-4deg);
-  overflow: visible;
-  width: 10rem;
-  height: 10rem;
-}  
-
 section.section-contact{
   background: linear-gradient(35deg, #2d0b00 0%, rgb(20, 22, 33) 50%), url(https://grainy-gradients.vercel.app/noise.svg);
+}
+.aboutme{
+  padding-top: 30vmin;
+}
+
+.clients{
+  padding-top: 10vmin;
+}
+
+.frameworks{
+  margin-top: 30vmin;
+}
+
+.projects{
+  padding-top: 25vmin;
+}
+
+.form{
+  margin-top: 20vmin;
+}
+
+.footer{
+  margin-top: 10vmin;
 }

@@ -3,7 +3,7 @@
 }
 
 .filler-white-half-big{
-  height:4.25vw;
+  height:4.25vmin;
 }
 
 .split-two-big-image {
@@ -51,16 +51,17 @@ right: 0;
   font-weight: bold;
   text-align: left;
   bottom: 0vw;
-  width: 24vw;
+  width: 27vw;
   color: black;
 }
 .title-text-half-big{
-  font-size: 2.35vw;
-  letter-spacing: -0.05vw;
-  line-height: 2.6vw;
+  font-size: 2.35vmax;
+  letter-spacing: -0.05vmax;
+  line-height: 2.6vmax;
+  margin-bottom: 4vmin;
 }
 .subtitle-text-half-big{
-  margin-top: 3vw;
-  line-height: 2.25vw;
-  font-size: 1.5vw;
+  margin-bottom: 1.8vmin;
+  line-height: 2vmax;
+  font-size: 1.4vmax;
 }

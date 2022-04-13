@@ -1,0 +1,18 @@
+[
+    {
+        "icon":"logos:java",
+        "title":"Java 8"
+    },
+    {
+        "icon":"logos:javascript",
+        "title":"JavaScript ES6"
+    },
+    {
+        "icon":"logos:typescript-icon",
+        "title":"Typescript"
+    },
+    {
+        "icon":"logos:python",
+        "title":"Python"
+    }
+]

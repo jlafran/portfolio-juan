@@ -22,7 +22,7 @@
     width: 70%;
     margin: 0 auto;
     margin-top: 2vmax;
-    color: #aba7a6;
+    color: var(--grey-light);
   }
 
   .body-info-text-big-inicio{
@@ -35,25 +35,23 @@
   /*    CARDS     */
 
   .container-frameworks-inicio{
-    padding-top: 4rem;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-evenly; */
-    width: 100%;
+    padding-top: 15vmin;
+    z-index: 3;
+    width: 60%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 3fr;
+    
   }
 
   .wrapper-framework-card{
     /* width: calc(30% - 10vmax);
     gap: 10vmax; */
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:10vmax;
-  }
-  .wrapper-framework-text{
-    text-align: center;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, 12vmax);
+    gap: 3vmin 0vmax;
+    z-index: 3;
   }
 
   .border-icon-framework{
@@ -63,5 +61,49 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    gap: 1vmax;
+    margin-left: 7vmax;
+  }
+
+  .logo-text-framework{
+    margin-top: 1vh;
+  }
+
+  /*      CATEGORY TEXT     */
+  .wrapper-framework-text{
+    text-align: left;
+    align-content: center;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    z-index: 3;
+  }
+
+  .category-text-framework{
+    font-size: 2vmax;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .container-frameworks-inicio{
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 573px) {
+    .container-frameworks-inicio{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    .wrapper-framework-text{
+      order: 1;
+      width: 100%;
+      padding-bottom: 3vmin;
+      display:flex;
+    }
+    .first-text{
+      padding-right: 3vw;
+
+    }
+    .wrapper-framework-card{
+      order: 2;
+      margin-left: -15vmin;
+    }
   }
