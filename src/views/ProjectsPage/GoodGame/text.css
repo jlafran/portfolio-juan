@@ -17,6 +17,12 @@
     line-height: 1.9vmax;
   }
 
+  .long-text-project p span{
+    font-size: 2vmax;
+    vertical-align: baseline;
+    padding-left: .8vmin;
+  }
+
   .list-items{
       margin-left: 2vw;
       display: list-item;

@@ -2,11 +2,11 @@
 .container {
     margin-left: auto;
     margin-right: auto;
-    padding: 2rem;
-    max-width: var(--page-width);
+    padding: 4vmin;
+    max-width: 65%;
   }
   .small-width {
-    max-width: 550px;
+    max-width: 94%;
   }
   .flex-content {
     display: flex;
@@ -15,22 +15,21 @@
   }
   .flex-content h1{
     color: #f3f3f3;
-    font-size: 2.25rem;
+    font-size: 2.4vmax;
   }
   .flex-content p{
     color: var(--grey-light);
-    font-size: 1.3rem;
+    font-size: 1.6vmax;
   }
 
   
   .main-image {
-    width: 250px;
+    width: 17.5vmax;
     height: auto;
     border-radius: 8px;
     border: 1px solid var(--light-border-color);
     margin-left: 2rem;
     margin: 0 0 0 2rem;
-    width: 250px;
   }
   .hero-buttons {
     display: flex;
@@ -41,9 +40,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 1.1rem;
+    font-size: 1.2vmax;
     color: #868e96;
-    border: none;
+    text-decoration: underline;
     gap: 0.4rem;
   }
   

@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg, #0c086d 0%, #1876D2 80%);
+    background: linear-gradient(180deg, #0c086d 0%, rgb(52, 110, 196) 90%);
 }
 
 .img-mockup-devices{

@@ -53,7 +53,7 @@ class Index extends React.Component {
               title="Hey, I'm Juan Cruz."
               text="I'm studying software engineer studying at UADE (Argentine University of Enterprise) 🇦🇷."
               link=""
-              text2=" Finished a MERN Backend course on CoderHouse, and worked at Pwc. This is a collection of the things I've learned over the years!"
+              text2=" Recently finished a Backend course on CoderHouse, and worked at Pwc . This is a curated list of stuff I've done over the years!"
               footer="📖 More about me"
               img={profile}
             />

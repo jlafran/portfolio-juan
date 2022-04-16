@@ -1,11 +1,11 @@
 .body-form{
-  display: inline-block;
+  display: grid;
   justify-content: center;
   text-align: left;
-  margin-left: 10%;
-  margin-right:10%;
   width: 80%;
+  margin: 0 auto;
   border: transparent;
+  padding-bottom: 8vmin;
 }
 
 .row{
@@ -26,13 +26,11 @@
 }
 
 .title-form{
-    font-family: Monserrat;
-    font-size: 2.1875rem;
+    font-size: 2.5vmax;
 }
 
 .input-text{
-    font-family: Monserrat;
-    font-size: 1.5625rem;
+    font-size: 1.8vmax;
 }
 
 .small{
@@ -54,13 +52,13 @@
 }
 
 .padding-bottom{
-  padding-bottom: 8%;
+  padding-bottom: 7.5vmin;
 }
 .padding-bottom2{
-  padding-bottom: 8%;
+  padding-bottom: 7.5vmin;
 }
 .padding-bottom3{
-  padding-bottom: 4%;
+  padding-bottom: 3.7vmin;
 }
 .padding-right{
   padding-right: 1.2rem;
@@ -121,12 +119,13 @@ button.send-form-boton {
   border: 3px solid #3a36d8;
   text-align: center;
   line-height: 1;
-  font-size: 17px;
+  font-size: 1.2vmax;
   padding: 15px 35px;
   outline: none;
   border-radius: 100px;
-  margin-top: 2rem;
+  margin-top: 3vmin;
 }
+
 button.send-form-boton:hover {
   background-color: #3a36d8;
   color: white;
@@ -135,7 +134,7 @@ button.send-form-boton:hover {
 .borde{
   position: flex;
   padding-bottom: 0rem;
-  padding-top: 3rem;
+  padding-top: 8vmin;
   width: 64%;
   margin-right: 18%;
   margin-left: 18%;

@@ -16,6 +16,7 @@ html,body
 
 :root {
   /* COLORS */
+  --background: rgb(20, 22, 33);
   --background1: #5a5d59;
   --background2: #191E22;
   --font_color:  #F1F5FB;
@@ -23,17 +24,19 @@ html,body
   --line_color: #5d5f61;
   --violet: #783AFF;
   --orange: #FF6D44;
+  --white: #d0d5df;
   --green: #69C759;
   --yellow: #F9C45C;
   --blue: #465DFF;
   --grey-light: #b9bfc5;
+  --dark-font-color: rgba(235,240,255,0.5);
   --page-width: 930px;
 }
 .HelloYou{
 justify-content:center;
 vertical-align: middle;
 align-items:center;
-background-color: rgb(20, 22, 33);
+background-color: var(--background);
 }
 
 .hello-you-subtitle-underline{
@@ -47,13 +50,13 @@ background-color: rgb(20, 22, 33);
 .seccionAU{
   height: 100%;
   width: 100%;
-  background: rgb(20, 22, 33);
+  background: var(--background);
   position: relative;
   display: block;
   }
 
 section.section-contact{
-  background: linear-gradient(35deg, #2d0b00 0%, rgb(20, 22, 33) 50%), url(https://grainy-gradients.vercel.app/noise.svg);
+  background: linear-gradient(35deg, #2d0b00 0%, var(--background) 50%), url(https://grainy-gradients.vercel.app/noise.svg);
 }
 .aboutme{
   padding-top: 30vmin;

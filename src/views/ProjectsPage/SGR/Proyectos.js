@@ -38,8 +38,8 @@ export default class SGR extends React.Component {
       {/********** TITLE ***************/}
       <div>
         <TitleProjects color="blue" 
-        titlecolor="Sistema SGR " 
-        title="Entidades financieras que facilitan el acceso al crédito."  />
+        titlecolor="Mutual guarantee company " 
+        title="finantial enteities that facilitate access to credit."  />
       </div>
 
       {/********** HALF AND HALF ***************/}
@@ -54,8 +54,8 @@ export default class SGR extends React.Component {
       </section>
 
      {/********** INFO BIG ***************/}
-     <InfoBigTextProjects title="Prototipado y desarrollo del sistema que se ocupa" 
-     bodytitle="De la prestación de avales ante bancos, manejo de cajas de ahorros y cooperativas de créditos, clientes y proveedores." 
+     <InfoBigTextProjects title="We were aproached to develop a manager to keep tabs of the credit." 
+     bodytitle="The system had to manage bank guarantees, savings accounts, credit cooperatives, customers and suppliers." 
      />
 
       {/********** MACBOOK ***************/}
@@ -65,16 +65,36 @@ export default class SGR extends React.Component {
         </div>
       </section>
 
+      {/********** TEXT ***************/}
+      <div className="long-text-project">
+              <h1 className="semibold" >Overview</h1>
+              <p className="regular">This project was developed by a team of 6, throught 3 months from the idea to a fully working system. This was my first time using the MVC (Model-View-Controller) architecture pattern, at it was the first time i was using a complete Java enviroment. It also meant I was able to put into practice my knowledge in the OOP (Object Oriented Programming) paradigm.</p>
+              <p className="regular">Through a brief interview with the SGR (Mutual guarantee company) we had the main business needs. And we where able to understand the way each process worked.</p>
+            </div>
+
+            <div className="long-text-project">
+              <h1 className="semibold" >Needs</h1>
+              <p className="regular">I'll try to give you a brief explanaition. Bank guarantees are a way for banks to take responsability for the guarantor in the event that it fails to fulfill its obligations. </p>
+              <p className="regular">SGR makes this guarantees available to small and medium companies also known in Argentina as PYMES, in order to keep track of the documentation and which company and shareholders asked for the loan the SGR needed the system. Also it had to manage credit cooperatives which are financial institution similar to banks, but is a member-owned nonprofit financial cooperative.</p>
+            </div>
       {/********** ALL DEVICES ***************/}
       <section>
         <div className="wrapper-mockup-devices-SGR">
           <img src={devices} className="img-mockup-devices-SGR" />
           <div className="wrapper-text-SGR">
-            <h2 className='bold title-text-sgr'>Diseño de UX/UI</h2>
-            <p className='regular subtitle-text-sgr'>Específicamente diseñado para empleados relacionados al sistema bancario.</p>
+            <h2 className='bold title-text-sgr'>UX/UI Design</h2>
+            <p className='regular subtitle-text-sgr'>The aplication had to have a UI similar to a legacy system that they previously used to manage their accounts.</p>
           </div>
         </div>
       </section>
+
+      {/********** TEXT ***************/}
+      <div className="long-text-project padding-top">
+              <h1 className="semibold" >Development</h1>
+              <p className="regular" >After that we had to design the class diagram and sequence diagram. With this information we were able to start programming the system logic working with Java. And another team was in charge of designing the view with Swing.</p>
+              <p className="regular" >Since it was the first time developing an MVC system, we had our fare share of issues, specially with the controllers. Since they were doing too many things, so once we understood this problem we had to redesign most of our controllers and services.</p>
+              <p className="regular" >We had a data base in MySQL, this meant we needed an API to consume this data. We choose Spring Boot since it also had Hibernate to map the model into our relational data base.</p>
+            </div>
 
       {/********** LOGOS ***************/}
       <div class="wrapper-framework-white">
@@ -82,16 +102,18 @@ export default class SGR extends React.Component {
         <ul className="horizontal-container-frameworks">
           <li> <Icon icon="logos:java" width={this.state.width} height={this.state.height} /> </li>
           <li> <Icon icon="logos:spring-icon" width={this.state.width} height={this.state.height} /> </li>
-          <li> <Icon icon="logos:figma" width={this.state.width} height={this.state.height} /> </li>
-          <li> <Icon icon="simple-icons:junit5" width={this.state.width} height={this.state.height} /> </li>
+          <li> <Icon icon="logos:hibernate" width={this.state.width} height={this.state.height} /> </li>
           <li> <Icon icon="logos:mysql" width={this.state.width} height={this.state.height} /> </li>
+          <li> <Icon icon="logos:figma" width={this.state.width} height={this.state.height} /> </li>
         </ul>
       </div>
 
       {/********** HALF BIG ***************/}
       <HalfBig 
-      title="Aplicación desktop desarrollada en Java" 
-      text="Se utilizo Swing para el front-end, Spring Boot para el back-end y Hibernate para mapear la base de datos. Esta aplicación local guarda información localmente pero tambien utiliza una base de datos para actualizarse."
+        title="Conclusion" 
+        text="Through the 3 months of development i learned lots of things. From interviewing and looking for business needs, to developing an MVC system and getting in touch with Java 8 and Spring."
+        text2="The business needs were complex and intricate, but pretty simple to code once you understood them."
+        text3="Thanks for reading all the way."
       imgRight={bigWindow} />
 
       {/********** UP NEXT ***************/}

@@ -13,6 +13,7 @@ import Inicio from './views/inicio'
 import Crecer from './views/ProjectsPage/Crecer/Proyectos'
 import SGR from './views/ProjectsPage/SGR/Proyectos'
 import GoodGame from './views/ProjectsPage/GoodGame/Proyectos'
+import AboutMe from "./views/aboutMe";
 
 
 function Wrapper({ children }) {
@@ -30,6 +31,8 @@ ReactDOM.render(
     <Switch>
       {/* add routes with layouts */}
       <Route path="/" exact component={Inicio} />
+
+      <Route path='/me' exact component={AboutMe}/>
       
       <Route path='/proyectos/crecer' exact component={Crecer}/>
       <Route path='/proyectos/sgr' exact component={SGR}/>

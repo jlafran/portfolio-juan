@@ -16,6 +16,8 @@ import devices from "./allDevices.png"
 import smallNext from "../Crecer/smallCrecer.png"
 import smallPrevious from "../SGR/bigwindow.png"
 import halfBig from './devices.png'
+import stat from "./stat.png"
+import stat2 from "./stat2.png"
 
 import half from "./half_and_half.css"
 import alldevices from "./allDevices.css"
@@ -63,13 +65,14 @@ export default class GoodGame extends React.Component {
 
             <div className="long-text-project">
               <h1 className="semibold" >Overview</h1>
-              <p className="regular">This project was done for a university subject with 3 friends, this was developed throught 4 months from the idea to a fully working prototype. My role as a fullstack developer meant that i was responsible for the whole development of the project. But it also meant that i was able to experiment with a new languaje and new technologies.</p>
+              <p className="regular">This project was done for a university subject with 3 partners, this was developed throught 4 months from the idea to a fully working prototype. My role as a fullstack developer meant that i was responsible for the whole development of the project. But it also meant that i was able to choose the language and technologies to work with.</p>
+              <p className="medium">And I was back to the MERN Stack <span> 💁‍♂️</span> </p>
             </div>
 
             <div className="long-text-project">
               <h1 className="semibold" >The Problem</h1>
-              <p className="regular">First we had a brainstorm to get a great problem. We arrived to an issue that bothered all 3 of us. It was bugs in games!!!</p>
-              <p className="regular">Then we proceeded to investigate the main issues that cause games full with bugs. And through a questionnaire and an interview with a project manager in a gaming studio, we where able to pin point two main problems with small and medium gaming studios:</p>
+              <p className="regular">First we bainstormed to get a great problem. We arrived to an issue that bothered all 3 of us. It was bugs in games!!!</p>
+              <p className="regular">Then we proceeded to investigate the main issues that causes games filled with bugs. And through a questionnaire and various interviews with a project managers in gaming studios, we were able to pin point two main problems with small and medium gaming studios:</p>
               <p className="list-items regular">Lack of mass testing before launch.</p>
               <p className="list-items regular">Unavailable to hire large teams of full time testers.</p>
             </div>
@@ -93,18 +96,25 @@ export default class GoodGame extends React.Component {
 
             <div className="long-text-project padding-top">
               <h1 className="semibold" >The Solution</h1>
-              <p className="regular" >In the other half of the questionnaire, where questions for gamers and testers alike.</p>
-              <p className="regular" >This testers and gammers where eager to work as freelance, either looking for bugs o giving feedback of the game. And were willing to sign an NDA.</p>
-              <p className="regular" >The desition was made. We were going to build a platform in which gamers and testers could work with gaming studios.</p>
+              <p className="regular" >In the other half of the questionnaire, were questions for gamers and testers alike.</p>
+              <p className="regular" >This testers and gammers where eager to work as freelancers, either looking for bugs or giving feedback of the game. And were willing to sign an NDA.</p>
+              <p className="regular" >The decision was made. We were going to build a platform in which gamers and testers could work with gaming studios.</p>
               <p className="regular" >The studios can hire testers or large groups of gamers and this people can give you feedback of your game, or test your game for bugs and report them.</p>
+            </div>
+
+            <div className="long-text-project" >
+              <img src={stat} alt="bug" className="stat"/>
+            </div>
+            <div className="long-text-project" >
+              <img src={stat2} alt="bug" className="stat"/>
             </div>
 
             <div className="long-text-project">
               <h1 className="semibold" >Development</h1>
               <p className="regular" >One of my colleagues made the wireframing and another worked on the overall look and feel of the website.</p>
-              <p className="regular" >I started development of the backend with node and express, the main issues i encountered were the structuring the information of each user and connecting the system with the payment API Stripe. Also it was my first time doing unit testing, so that was a beast of it's own, but it really helped specially for developing CRUD request and Mocha made it easier.</p>
-              <p className="regular" >Once i managed to get the hang of it, and finished the backend i started with the fronend. Using my friends designs and wireframes i was able to make a clean design. It also helped that i previously worked with React.</p>
-              <p className="regular" >Finally i mounted the cluster in mongo and both the backend and frontend in Heroku. After meddling with Heroku i had a fully functioning WebApp.</p>
+              <p className="regular" >I started the development of the backend with node and express, the main issues I encountered was the structuring of the information of each user and connecting the system with the payment API Stripe. Also it was my first time doing unit testing, so that was a beast of it's own, but it really helped specially for developing CRUD request and Mocha made it easier.</p>
+              <p className="regular" >Once I managed to get the hang of it, and finished the backend I started with the frontend. Using my partners designs and wireframes, we were able to achieve a clean look&feel. It also helped that I previously worked with React.</p>
+              <p className="regular" >Finally I mounted the cluster in MongoAtlas and both the backend and frontend in Heroku. After meddling with Heroku I had a fully functioning WebApp.</p>
             </div>
 
             {/********** LOGOS ***************/}
@@ -125,8 +135,8 @@ export default class GoodGame extends React.Component {
             {/********** HALF BIG ***************/}
             <HalfBig 
             title="The Result" 
-            text="Through the 4 months of development i learned lots of things. From interviewing and looking for business needs, to developing a robust and complex API."
-            text2="Also got to work with asynchronous functions, and integrate with external API's."
+            text="I was able to learn lots of things. From A/B testing an idea pre-production, development of MVP and business model, to developing a robust and complex API. It was a long journey, that I'm thankful to have had the chance to make."
+            text2="Also got to work with new stuff, like Helmet and integrate with external API's."
             text3="Thanks for reading all the way, hope this helps you out."
             imgRight={halfBig} />
 
