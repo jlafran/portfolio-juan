@@ -14,7 +14,7 @@ const Macbook=(props)=> {
     <div className="wrapper-mockup">
       <div className="wrapper-mockup-macbook">
         <div className="video-goodgame">
-            <video src={video} autoPlay muted loop ></video>
+            <video loading="lazy" src={video} autoPlay muted loop ></video>
         </div>
         <img src={img} className="img-goodgame" />
       </div>

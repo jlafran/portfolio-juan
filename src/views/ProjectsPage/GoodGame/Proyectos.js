@@ -14,7 +14,7 @@ import imgLeft from "./portrait.png"
 import imgRight from "./ipads.png"
 import devices from "./allDevices.png"
 import smallNext from "../Crecer/smallCrecer.png"
-import smallPrevious from "../SGR/bigwindow.png"
+import smallPrevious from "../SGR/smallSGR.png"
 import halfBig from './devices.png'
 import stat from "./stat.png"
 import stat2 from "./stat2.png"
@@ -47,11 +47,11 @@ export default class GoodGame extends React.Component {
             {/********** HALF AND HALF ***************/}
             <section>
               <div class="split-two-image left-two-image-goodgame">
-                <img src={imgLeft} className="img-mockup-portrait-goodgame" />
+                <img src={imgLeft} loading="lazy" className="img-mockup-portrait-goodgame" />
               </div>
 
               <div class="split-two-image right-two-image-goodgame">
-                <img src={imgRight} className="img-mockup-ipads-goodgame" />
+                <img src={imgRight} loading="lazy" className="img-mockup-ipads-goodgame" />
               </div>
             </section>
 
@@ -78,7 +78,7 @@ export default class GoodGame extends React.Component {
             </div>
 
             <div className="long-text-project" >
-              <img src="https://i.pinimg.com/originals/98/5b/f4/985bf4fea1ac21cae8f91491448ff930.gif" alt="bug" />
+              <img src="https://i.pinimg.com/originals/98/5b/f4/985bf4fea1ac21cae8f91491448ff930.gif" loading="lazy" alt="bug" />
             </div>
 
            
@@ -86,7 +86,7 @@ export default class GoodGame extends React.Component {
             {/********** ALL DEVICES ***************/}
             <section>
             <div className="wrapper-mockup-devices-goodgame">
-              <img src={devices} className="img-mockup-devices-goodgame" />
+              <img src={devices} loading="lazy" className="img-mockup-devices-goodgame" />
                 <div className="wrapper-text-goodgame">
                   <h2 className='bold title-text-goodgame'>Responsive Design</h2>
                   <p className='regular subtitle-text-goodgame'>Since this runs on a browser, I had to take into consideration the resposiveness of the website.</p>
@@ -103,10 +103,10 @@ export default class GoodGame extends React.Component {
             </div>
 
             <div className="long-text-project" >
-              <img src={stat} alt="bug" className="stat"/>
+              <img src={stat} loading="lazy" alt="bug" className="stat"/>
             </div>
             <div className="long-text-project" >
-              <img src={stat2} alt="bug" className="stat"/>
+              <img src={stat2} loading="lazy" alt="bug" className="stat"/>
             </div>
 
             <div className="long-text-project">

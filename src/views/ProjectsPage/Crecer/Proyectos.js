@@ -15,7 +15,7 @@ import imgLeft from "./portrait.png"
 import imgRight from "./ipads.png"
 import devices from "./allDevices.png"
 import halfBig from './devices2.png'
-import smallNext from "../SGR/bigwindow.png"
+import smallNext from "../SGR/smallSGR.png"
 import smallPrevious from "../GoodGame/smallGoodgame.png"
 
 import alldevices from "./allDevices.css"
@@ -44,11 +44,11 @@ export default class Crecer extends React.Component {
             {/********** HALF AND HALF ***************/}
             <section>
               <div class="split-two-image left-two-image">
-                <img src={imgLeft} className="img-mockup-portrait" />
+                <img loading="lazy" src={imgLeft} className="img-mockup-portrait" />
               </div>
 
               <div class="split-two-image right-two-image">
-                <img src={imgRight} className="img-mockup-ipads" />
+                <img loading="lazy" src={imgRight} className="img-mockup-ipads" />
               </div>
             </section>
 
@@ -58,7 +58,7 @@ export default class Crecer extends React.Component {
             />
 
             {/********** MACBOOK ***************/}
-            <Macbook video={video}/>
+            <Macbook  video={video}/>
 
             {/********** TEXT ***************/}
             <div className="long-text-project">
@@ -77,7 +77,7 @@ export default class Crecer extends React.Component {
             {/********** ALL DEVICES ***************/}
             <section>
               <div className="wrapper-mockup-devices">
-                <img src={devices} className="img-mockup-devices" />
+                <img loading="lazy" src={devices} className="img-mockup-devices" />
 
               </div>
             </section>

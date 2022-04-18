@@ -23,7 +23,7 @@ const HalfBig=(props)=> {
         </div>
 
         <div class="split-two-big-image right-big-image-half">
-          <img src={imgRight} className="img-mockup-website-big" />
+          <img loading="lazy" src={imgRight} className="img-mockup-website-big" />
         </div>
 
         

@@ -45,11 +45,11 @@ export default class SGR extends React.Component {
       {/********** HALF AND HALF ***************/}
       <section>
         <div class="split-two-image-sgr left-two-image">
-          <img src={imgLeft} className="img-mockup-window-sgr" />
+          <img src={imgLeft} loading="lazy" className="img-mockup-window-sgr" />
         </div>
 
         <div class="split-two-image-sgr right-two-image">
-          <img src={imgRight} className="img-mockup-screens-sgr" />
+          <img src={imgRight} loading="lazy" className="img-mockup-screens-sgr" />
         </div>
       </section>
 
@@ -61,7 +61,7 @@ export default class SGR extends React.Component {
       {/********** MACBOOK ***************/}
       <section className="section-mockup-macbook-SGR">
         <div className="wrapper-mockup-macbook-SGR">
-          <img src={macbook} className="img-mockup-macbook-SGR" />
+          <img src={macbook} loading="lazy" className="img-mockup-macbook-SGR" />
         </div>
       </section>
 
@@ -80,7 +80,7 @@ export default class SGR extends React.Component {
       {/********** ALL DEVICES ***************/}
       <section>
         <div className="wrapper-mockup-devices-SGR">
-          <img src={devices} className="img-mockup-devices-SGR" />
+          <img src={devices} loading="lazy" className="img-mockup-devices-SGR" />
           <div className="wrapper-text-SGR">
             <h2 className='bold title-text-sgr'>UX/UI Design</h2>
             <p className='regular subtitle-text-sgr'>The aplication had to have a UI similar to a legacy system that they previously used to manage their accounts.</p>
