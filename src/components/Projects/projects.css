@@ -114,7 +114,7 @@ hr.line {
     height: 100%;
     align-content: flex-start;
     font-size: 1.2vmax;
-    line-height: 1.5vmax;
+
     color: var(--font_color2)
   }
   
