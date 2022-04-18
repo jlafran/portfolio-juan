@@ -1,6 +1,7 @@
 import styles from './aboutMe.css'
 import { css } from '@emotion/css'
 import { HashLink } from "react-router-hash-link";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 const AboutMe = (props) => {
@@ -21,7 +22,7 @@ const AboutMe = (props) => {
                 <p className="subtitle small-width">{text} </p>
                 <p className="subtitle small-width">{text2} </p>
               </div>
-              <img src={img} alt="Me" className="main-image" />
+              <LazyLoadImage effect="blur" src={img} alt="Me" className="main-image" placeholder="Me"/>
             </div>
             <p className="hero-buttons">
               <a href="/me" className="hero-button">

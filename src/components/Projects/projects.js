@@ -12,15 +12,15 @@ const Projects = (props) => {
                 <div className="text-tag center line">
 
                     <div className="img-container" >
-                      <img src={img1} alt="Ceramic Vase"></img>
+                      <img src={img1} alt="GoodGame" placeholder="GoodGame"></img>
                     </div>
 
                     <div className="title-text-big">
-                      <p className="bold  hasCursorORANGE">{title1}</p>
+                      <p className="bold  hasCursor">{title1}</p>
                     </div>
 
                     <div className="text-small">
-                      <p className="middle  hasCursorORANGE">{text1}</p>
+                      <p className="middle  hasCursor">{text1}</p>
                     </div>
 
                     <div className='wrapper-icon'>
@@ -34,7 +34,7 @@ const Projects = (props) => {
                 <a href={link2} style={{cursor:"unset"}}>
                   <div className="text-tag center line">
                     <div className="img-container" >
-                    <img src={img2} alt="Ceramic Vase"></img>
+                    <img src={img2} alt="Crecer" placeholder="Crecer"></img>
                     </div>
 
                     <div className="title-text-big">
@@ -55,7 +55,7 @@ const Projects = (props) => {
                 <a href={link3} style={{cursor:"unset"}}>
                   <div className="text-tag center line">
                     <div className="img-container" >
-                    <img src={img3} alt="Ceramic Vase"></img>
+                    <img src={img3} alt="SGR" placeholder="SGR"></img>
                     </div>
 
                     <div className="title-text-big">
