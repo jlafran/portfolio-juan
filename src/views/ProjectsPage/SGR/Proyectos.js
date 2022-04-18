@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../../../components/Header/Header"
+import Header from "../../../components/Navbar/navbar"
 import { Icon } from '@iconify/react';
 
 import HalfBig from "../../../components/HalfBig/half_and_half"
 import TitleProjects from "../../../components/TitleProjects/titleBig"
 import InfoBigTextProjects from "../../../components/InfoBigTextProjects/InfoBigText";
 import UpNext from "../../../components/UpNext/upNext";
-import Footer from "../../../components/Footers/Footer2";
+import Footer from "../../../components/Footer/footer";
 
 import imgLeft from "./left.png"
 import imgRight from "./multipleCards.png"

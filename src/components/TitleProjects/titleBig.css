@@ -24,9 +24,12 @@
 }
 
 .title-info-title-big-projects .title-color-title-big-projects{
+  -webkit-background: linear-gradient(45deg, var(--color), var(--color2));
   background: linear-gradient(45deg, var(--color), var(--color2));
+  -webkit-box-decoration-break: clone;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  -webkit-background-clip: text;
   vertical-align: baseline;
 }
 

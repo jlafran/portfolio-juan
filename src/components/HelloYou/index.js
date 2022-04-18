@@ -48,7 +48,6 @@ const HelloYou = memo((props) => {
             style={useSpring({
               to: [{ opacity: 1, transform: "translateY(0)" }],
               from: { opacity: 0, transform: "translateY(20%)" },
-
               delay: baseDelay,
             })}
           >
@@ -371,7 +370,7 @@ const HelloYou = memo((props) => {
               }),
             )}
             > 
-            <a href="/proyectos/sgr" className="bold hello-you-subtitle-underline">
+            <a href="/me" className="bold hello-you-subtitle-underline">
               <strong className="bold">Juan Cruz</strong> 
             </a>
             <span className="medium">, 24 years,</span> 

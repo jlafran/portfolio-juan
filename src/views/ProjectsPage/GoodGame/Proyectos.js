@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../../../components/Header/Header"
+import Header from "../../../components/Navbar/navbar"
 import { Icon } from '@iconify/react';
 
 import Macbook from '../../../components/MacbookVideo/macbook';
 import TitleProjects from "../../../components/TitleProjects/titleBig"
 import InfoBigTextProjects from "../../../components/InfoBigTextProjects/InfoBigText"
 import HalfBig from '../../../components/HalfBig/half_and_half';
-import Footer from "../../../components/Footers/Footer2";
+import Footer from "../../../components/Footer/footer";
 import UpNext from "../../../components/UpNext/upNext";
 
 import video from "../../../assets/Videos/GoodGame_1080p.mp4"

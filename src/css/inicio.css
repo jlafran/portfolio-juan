@@ -20,16 +20,24 @@ html,body
   --background1: #5a5d59;
   --background2: #191E22;
   --font_color:  #F1F5FB;
+  --bright-font-color: #eee;
   --font_color2: #888A8C;
   --line_color: #5d5f61;
   --violet: #783AFF;
   --orange: #FF6D44;
+  --orange_yellow: #F2874B;
   --white: #d0d5df;
   --green: #69C759;
-  --yellow: #F9C45C;
+  --yellow: #f2bf6c;
   --blue: #465DFF;
   --grey-light: #b9bfc5;
   --dark-font-color: rgba(235,240,255,0.5);
+  --light-border-color: hsla(0,0%,100%,0.1);
+  --navbar-height: 60px;
+  --navbar-font-color: #d0d5df;
+  --navbar-color: #171c24;
+  --navbar-color-hover: #272a33;;
+  --toolbar-color: #eee;
   --page-width: 930px;
 }
 .HelloYou{
@@ -37,6 +45,7 @@ justify-content:center;
 vertical-align: middle;
 align-items:center;
 background-color: var(--background);
+
 }
 
 .hello-you-subtitle-underline{
@@ -59,7 +68,7 @@ section.section-contact{
   background: linear-gradient(35deg, #2d0b00 0%, var(--background) 50%), url(https://grainy-gradients.vercel.app/noise.svg);
 }
 .aboutme{
-  padding-top: 30vmin;
+  padding-top: 23vmin;
 }
 
 .clients{
@@ -76,8 +85,5 @@ section.section-contact{
 
 .form{
   margin-top: 20vmin;
-}
-
-.footer{
-  margin-top: 10vmin;
+  margin-bottom: 20vmin;
 }

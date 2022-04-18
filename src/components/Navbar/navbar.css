@@ -1,0 +1,86 @@
+.navigation {
+    background: var(--navbar-color);
+    border-bottom: 1px solid var(--light-border-color);
+    height: var(--navbar-height);
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.navigation-inner{
+    max-width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: .5rem 1.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation nav{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: .6rem;
+    height: 100%;
+}
+
+.navigation nav a.brand{
+    font-size: 1rem;
+}
+.navigation nav a.brand span{
+    white-space: nowrap;
+}
+
+.navigation nav a{
+    border-radius: 8px;
+    color: var(--navbar-font-color);
+    font-size: 1rem;
+    gap: .4rem;
+    line-height: 1.1;
+    padding: .5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.navigation nav a:hover{
+    background: var(--navbar-color-hover);
+    color: var(--bright-font-color);
+}
+
+.toolbar-section{
+    align-items: center;
+    display: flex;
+    flex: 0 0 155px;
+    justify-content: flex-end;
+}
+
+/* Mobile Last */
+
+@media screen and (max-width: 660px) {
+    .navigation nav a.brand{
+        display: none;
+    }
+
+    .tooltip{
+        white-space: nowrap;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    .toolbar-section,
+    .navigation nav a.brand{
+        display: none;
+    }
+
+    .tooltip{
+        white-space: nowrap;
+    }
+  }
+
+  
+  

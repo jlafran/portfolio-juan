@@ -15,6 +15,8 @@ import SGR from './views/ProjectsPage/SGR/Proyectos'
 import GoodGame from './views/ProjectsPage/GoodGame/Proyectos'
 import AboutMe from "./views/aboutMe";
 
+import "./components/Navbar/navbar.css"
+
 
 function Wrapper({ children }) {
   return (

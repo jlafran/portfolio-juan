@@ -3,7 +3,7 @@ body{
 }
 
 .containerProyectos{
-  padding-top: 70px;
+  padding-top: var(--navbar-height);
   text-align:center;
 	background-color:white;
 }

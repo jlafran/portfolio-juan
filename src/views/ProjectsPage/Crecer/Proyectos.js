@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../../components/Header/Header"
+import Header from "../../../components/Navbar/navbar"
 import { Icon } from '@iconify/react';
 
 import Macbook from '../../../components/MacbookVideo/macbook';
@@ -7,7 +7,7 @@ import TitleProjects from "../../../components/TitleProjects/titleBig"
 import InfoBigTextProjects from "../../../components/InfoBigTextProjects/InfoBigText"
 import HalfBig from '../../../components/HalfBig/half_and_half';
 import UpNext from "../../../components/UpNext/upNext";
-import Footer from "../../../components/Footers/Footer2";
+import Footer from "../../../components/Footer/footer";
 import HelloYou from "../../../components/HelloYou";
 
 import video from "../../../assets/Videos/Crecer_1080p.mp4"
@@ -33,7 +33,7 @@ export default class Crecer extends React.Component {
   render() {
     return (
         <>
-        
+          <Header/>
           <section className='containerProyectos'>
             {/********** TITLE ***************/}
             <div>

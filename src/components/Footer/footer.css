@@ -1,0 +1,36 @@
+.footer{
+    background: var(--navbar-color);
+    padding: 4vmin 0;
+}
+
+.footer section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25vmin;
+    }
+
+.footer nav {
+    display: flex;
+    gap: .25vmin;
+    margin: 0 1vmin;
+    }
+
+.footer span {
+    color: var(--toolbar-color);
+    }
+
+.footer a, .footer span {
+    align-items: center;
+    color: var(--light-font-color);
+    display: flex;
+    font-size: .9rem;
+    line-height: 1.2;
+    padding: 0 .5rem;
+    }
+    
+.desktop-only {
+    display: block!important;
+    padding-top: 3vmin!important;
+    color: var(--dark-font-color)!important;
+    }

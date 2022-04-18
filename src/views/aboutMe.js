@@ -1,4 +1,7 @@
 import styles from '../css/aboutMe.css'
+import { HashLink } from "react-router-hash-link";
+import Header from '../components/Navbar/navbar';
+import Footer from "../components/Footer/footer";
 
 
 const AboutMe = () => {
@@ -8,18 +11,19 @@ const AboutMe = () => {
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         </style>
-
+        <Header/>
+        
         <div className='container-resume'>
 
             <div class="wrapper-about-me-title">
                 <h1>About me</h1>
-                <p class="description">Software engineer, open-sourcerer, and lead singer of Floppy and the Diskettes</p>
+                <p class="description">Software Developer, always learning, if I'm not at the movies, I'm cooking.</p>
             </div>
 
             <div className="wrapper-work medium">
-                <p>Hey, I'm Tania! I'm a software engineer working in Chicago. Welcome to my spot on the web for projects I've created, tutorials I've written, musings, and anything else I want to show the world.</p>
-                <p>My site has no ads, no affiliate links, no tracking or analytics, no sponsored posts, and no paywall. My only motivation for this site is to share what I've learned with the world and document notes for myself, and hopefully connect with a few people.</p>
-                <p>Check out the <a href="/projects" className='semibold'>projects</a> page to see a highlight of the open-source projects I've made, and <a href="/blog" className='semibold'>articles</a> to see everything I've written. I've also written external publications for DigitalOcean, Envato Tuts+, etc. and done a few speaking engagements and podcasts, which you can find below.</p>
+                <p>Hey, I'm Juan Cruz Lafranconi! I'm a software developer working in Buenos Aires, Argentina. Welcome to my spot for <HashLink smooth to="/#projects" className='semibold'>projects</HashLink> I've created, <HashLink smooth to="/#frameworks" className='semibold'>technologies</HashLink> I've learned and hopefully <a href="mailto:juanolafranconi@gmail.com"  title="Mail" target="_blank" rel="noopener noreferrer" className='semibold'>connect</a> with people.</p>
+                <p>I believe any skill can be learned, personality is inherent. I'm always challenging myself, learning new stuff, and asking questions. Fueled by high energy levels and boundless enthusiasm, I'm easily inspired and more than willing to take new challenges head on. I'm passionate, expressive and love to turn ideas into reality.</p>
+                <p>I'm a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. I like to develop expertise in a number of areas over the course of my life and career. You can read more about my biography, experience, skills, education bellow.</p>
             </div>
 
             <section className="wrapper-work">
@@ -166,6 +170,7 @@ const AboutMe = () => {
             </section>
 
         </div>
+        <Footer/>
     </>
     )
   }
