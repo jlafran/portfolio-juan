@@ -12,7 +12,7 @@ const Projects = (props) => {
                 <div className="text-tag center line">
 
                     <div className="img-container" >
-                      <img loading="lazy" src={img1} alt="GoodGame" placeholder="GoodGame"></img>
+                      <img src={img1} alt="GoodGame" placeholder="GoodGame"></img>
                     </div>
 
                     <div className="title-text-big">
@@ -34,7 +34,7 @@ const Projects = (props) => {
                 <a href={link2} style={{cursor:"unset"}}>
                   <div className="text-tag center line">
                     <div className="img-container" >
-                    <img loading="lazy" src={img2} alt="Crecer" placeholder="Crecer"></img>
+                    <img src={img2} alt="Crecer" placeholder="Crecer"></img>
                     </div>
 
                     <div className="title-text-big">
@@ -55,7 +55,7 @@ const Projects = (props) => {
                 <a href={link3} style={{cursor:"unset"}}>
                   <div className="text-tag center line">
                     <div className="img-container" >
-                    <img loading="lazy" src={img3} alt="SGR" placeholder="SGR"></img>
+                    <img src={img3} alt="SGR" placeholder="SGR"></img>
                     </div>
 
                     <div className="title-text-big">

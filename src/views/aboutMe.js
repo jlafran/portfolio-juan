@@ -28,6 +28,35 @@ const AboutMe = () => {
 
             <section className="wrapper-work">
                 <h2 className="experience">Experience</h2>
+
+                <div className='wrapper-work-card'>
+                     <h3 className="title-work">
+                        Developer FullStack
+                        <span>Dic 2021 - Mar 2022</span>
+                     </h3>
+
+                     <p className="company-work">
+                        <strong className='bold'>Ministry of Government DG Productive Development CABA </strong>
+                        —
+                        <em className='regular'> Freelance</em>
+                     </p>
+
+                    <ul className="medium description">
+                        <li>Developed an internal CRUD web application in MERN to record and track requests from industry and neighborhood councils.</li>
+                        <li>Data analysis and graphs included to visualize the success rate and categorize cases.</li>
+                    </ul>
+                    <div className="regular techs">
+                        <code>Node js</code>
+                        <code>Express</code>
+                        <code>MongoDB</code>
+                        <code>React</code>
+                        <code>Chart js</code>
+                        <code>CSS</code>
+                        <code>HTML</code>
+                    </div>
+
+                </div>
+
                 <div className='wrapper-work-card'>
                      <h3 className="title-work">
                         Associate Assurance Transformation Center Digital
@@ -41,7 +70,7 @@ const AboutMe = () => {
                      </p>
 
                     <ul className="medium description">
-                        <li>Worked in RPA automation process services for internal clients and external audits.</li>
+                        <li>Worked on RPA automation process services for internal clients and external audits.</li>
                         <li>Led the research team for new technologies and frameworks of my sector.</li>
                         <li>Worked with Python, Pandas, Numpy and Matplotlib for data cleansing, data analysis and data visualization.</li>
                         <li>Used Power Bi, Power Query and VBA  for data cleansing, data integration, automate processes and visualize reports.</li>
@@ -71,7 +100,7 @@ const AboutMe = () => {
                      </p>
 
                     <ul className="medium description">
-                        <li>Developed internal aplication in Java 8 and Swing to register new candidates to the data base of our the job bank and courses at the General Directorate of Productive Development. Also match posible candidates with job opportunities.</li>
+                        <li>Developed an internal application in Java 8 and Swing to register new candidates to the data base of our the job bank and courses at the General Directorate of Productive Development. Also, match possible candidates with job opportunities.</li>
                         <li>Worked with Wifi Marketing installation and captive portals integration.</li>
                         <li>Developed courses for entrepreneurs and start-ups on programing and business plan development.</li>
                         <li>Plan and Coodinate monthly events with different companies and organizations from each industry to generate new job opportunities for our job bank.</li>
@@ -100,7 +129,7 @@ const AboutMe = () => {
                      </p>
 
                     <ul className="medium description">
-                        <li>Deputy adviser in legislation at the Commission of Education, Science and Technology. Which is responsable for ruling on any matter or project related to articles 23, 24, 25 and 58 of the City Constitution.</li>
+                        <li>Deputy adviser in legislation at the Commission of Education, Science and Technology. Which is responsible for ruling on any matter or project related to articles 23, 24, 25 and 58 of the City Constitution.</li>
                         <li>Designed and Organized 8 hour courses for beginner programmers.</li>
                         <li>Coordinated and Participated in the Cold Operative, providing shelter, clothes and food for people living in the street.</li>
                     </ul>

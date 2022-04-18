@@ -23,9 +23,9 @@ import front from "../assets/json/front.json"
 import back from "../assets/json/back.json"
 import db from "../assets/json/db.json"
 
-import goodgame from "./ProjectsPage/GoodGame/smallGoodgame.png"
-import crecer from "./ProjectsPage/Crecer/smallCrecer.png"
-import sgr from "./ProjectsPage/SGR/smallSGR.png"
+import goodgame from "./ProjectsPage/GoodGame/smallestGoodgame.png"
+import crecer from "./ProjectsPage/Crecer/smallestCrecer.png"
+import sgr from "./ProjectsPage/SGR/smallestSGR.png"
 import profile from "../assets/img/profile.png"
 
 class Index extends React.Component {
@@ -53,7 +53,7 @@ class Index extends React.Component {
           <div className="aboutme">
             <AboutMe
               title="Hey, I'm Juan Cruz."
-              text="I'm studying software engineer studying at UADE (Argentine University of Enterprise) 🇦🇷."
+              text="I'm studying software engineering at UADE (Argentine University of Enterprise) 🇦🇷."
               link=""
               text2=" Recently finished a Backend course on CoderHouse, and worked at Pwc . This is a curated list of stuff I've done over the years!"
               footer="📖 More about me"
@@ -67,9 +67,9 @@ class Index extends React.Component {
 
           <div className="frameworks" id="frameworks">
             <Frameworks
-              title="This are the technologies and languages i've"
+              title="These are the technologies and languages I've"
               color=" worked with!"
-              bodytitle="Through development of new projects, i acquired good practices, new methodologies and critical thinking skills."
+              bodytitle="Through the development of new projects, I acquired good practices, new methodologies, and critical thinking skills."
               front={front}
               back={back}
               db={db}
@@ -90,12 +90,12 @@ class Index extends React.Component {
                 link1="/proyectos/goodgame"
 
                 title2="Crecer"
-                text2="Is a web application allows parents to register pediatric controls, messurements and vaccines calendar and also be able to edit and create new profiles for your children."
+                text2="Is a web application that allows parents to register pediatric controls, measurements and vaccines calendar and also be able to edit and create new profiles for your children."
                 img2={crecer}
                 link2="/proyectos/crecer"
 
                 title3="Sociedad de Garantía Recíproca"
-                text3="Is a Java desktop aplication to manage bank guarantees, savings accounts, credit cooperatives, customers and suppliers."
+                text3="Is a Java desktop application to manage bank guarantees, savings accounts, credit cooperatives, customers, and suppliers."
                 img3={sgr}
                 link3="/proyectos/sgr"
               />

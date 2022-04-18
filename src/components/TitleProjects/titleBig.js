@@ -15,7 +15,7 @@ const TitleProjects = (props) => {
         <>
             <div className='wrapper-title-big-projects'>
             <div className='body-about-info-title-big-projects'>
-                <p className='semibold subtitle-info-title-big-projects'>INTRODUCCIÓN</p>
+                <p className='semibold subtitle-info-title-big-projects'>INTRODUCTION</p>
                 <p className="semibold title-info-title-big-projects">
                     <span className={`title-color-title-big-projects ${color+"-title"}`}>{titlecolor}</span>
                 {title}</p>

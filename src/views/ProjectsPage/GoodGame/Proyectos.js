@@ -41,7 +41,7 @@ export default class GoodGame extends React.Component {
             <div>
               <TitleProjects color="green" 
               titlecolor="GoodGame " 
-              title="conects testers with gaming studios."  />
+              title="connects testers with gaming studios."  />
             </div>
             
             {/********** HALF AND HALF ***************/}
@@ -56,8 +56,8 @@ export default class GoodGame extends React.Component {
             </section>
 
             {/********** INFO BIG ***************/}
-            <InfoBigTextProjects title="This WebApp let's freelance testers download builds and report bugs." 
-            bodytitle="Testers can give feedback,  and get paid throught the platform. And studios can hire testers, organize bug bounties and surveys." 
+            <InfoBigTextProjects title="This WebApp lets freelance testers download builds and report bugs." 
+            bodytitle="Testers can give feedback,  and get paid through the platform. And studios can hire testers, organize bug bounties and surveys." 
             />
 
             {/********** MACBOOK ***************/}
@@ -65,14 +65,14 @@ export default class GoodGame extends React.Component {
 
             <div className="long-text-project">
               <h1 className="semibold" >Overview</h1>
-              <p className="regular">This project was done for a university subject with 3 partners, this was developed throught 4 months from the idea to a fully working prototype. My role as a fullstack developer meant that i was responsible for the whole development of the project. But it also meant that i was able to choose the language and technologies to work with.</p>
+              <p className="regular">This project was done for a university subject with 3 partners, this was developed throught 4 months from the idea to a fully working prototype. My role as a fullstack developer meant that I was responsible for the whole development of the project. But it also meant that I was able to choose the language and technologies to work with.</p>
               <p className="medium">And I was back to the MERN Stack <span> 💁‍♂️</span> </p>
             </div>
 
             <div className="long-text-project">
               <h1 className="semibold" >The Problem</h1>
-              <p className="regular">First we bainstormed to get a great problem. We arrived to an issue that bothered all 3 of us. It was bugs in games!!!</p>
-              <p className="regular">Then we proceeded to investigate the main issues that causes games filled with bugs. And through a questionnaire and various interviews with a project managers in gaming studios, we were able to pin point two main problems with small and medium gaming studios:</p>
+              <p className="regular">First, we brainstormed to get a great problem. We arrived at an issue that bothered all 3 of us. It was bugs in games!!!</p>
+              <p className="regular">Then we proceeded to investigate the main issues that cause games to be filled with bugs. And through a questionnaire and various interviews with project managers in gaming studios, we were able to pin point two main problems with small and medium gaming studios:</p>
               <p className="list-items regular">Lack of mass testing before launch.</p>
               <p className="list-items regular">Unavailable to hire large teams of full time testers.</p>
             </div>
@@ -97,9 +97,9 @@ export default class GoodGame extends React.Component {
             <div className="long-text-project padding-top">
               <h1 className="semibold" >The Solution</h1>
               <p className="regular" >In the other half of the questionnaire, were questions for gamers and testers alike.</p>
-              <p className="regular" >This testers and gammers where eager to work as freelancers, either looking for bugs or giving feedback of the game. And were willing to sign an NDA.</p>
-              <p className="regular" >The decision was made. We were going to build a platform in which gamers and testers could work with gaming studios.</p>
-              <p className="regular" >The studios can hire testers or large groups of gamers and this people can give you feedback of your game, or test your game for bugs and report them.</p>
+              <p className="regular" >This testers and gamers where eager to work as freelancers, either looking for bugs or giving feedback of the game. And were willing to sign an NDA.</p>
+              <p className="regular" >The decision was made. We were going to build a platform on which gamers and testers could work with gaming studios.</p>
+              <p className="regular" >The studios can hire testers or large groups of gamers and these people can give you feedback on your game, or test your game for bugs and report them.</p>
             </div>
 
             <div className="long-text-project" >
@@ -111,9 +111,9 @@ export default class GoodGame extends React.Component {
 
             <div className="long-text-project">
               <h1 className="semibold" >Development</h1>
-              <p className="regular" >One of my colleagues made the wireframing and another worked on the overall look and feel of the website.</p>
-              <p className="regular" >I started the development of the backend with node and express, the main issues I encountered was the structuring of the information of each user and connecting the system with the payment API Stripe. Also it was my first time doing unit testing, so that was a beast of it's own, but it really helped specially for developing CRUD request and Mocha made it easier.</p>
-              <p className="regular" >Once I managed to get the hang of it, and finished the backend I started with the frontend. Using my partners designs and wireframes, we were able to achieve a clean look&feel. It also helped that I previously worked with React.</p>
+              <p className="regular" >One of my colleagues did the wireframing and another worked on the overall look and feel of the website.</p>
+              <p className="regular" >I started the development of the backend with node and express, the main issues I encountered were the structuring of the information of each user and connecting the system with the payment API Stripe. Also it was my first time doing unit testing, so that was a beast of it's own, but it really helped specially for developing CRUD requests and Mocha made it easier.</p>
+              <p className="regular" >Once I managed to get the hang of it, and finished the backend, I started with the frontend. Using my partners designs and wireframes, we were able to achieve a clean look&feel. It also helped that I previously worked with React.</p>
               <p className="regular" >Finally I mounted the cluster in MongoAtlas and both the backend and frontend in Heroku. After meddling with Heroku I had a fully functioning WebApp.</p>
             </div>
 
@@ -136,7 +136,7 @@ export default class GoodGame extends React.Component {
             <HalfBig 
             title="The Result" 
             text="I was able to learn lots of things. From A/B testing an idea pre-production, development of MVP and business model, to developing a robust and complex API. It was a long journey, that I'm thankful to have had the chance to make."
-            text2="Also got to work with new stuff, like Helmet and integrate with external API's."
+            text2="Also got to work with new stuff, like Helmet and integrate with external APIs."
             text3="Thanks for reading all the way, hope this helps you out."
             imgRight={halfBig} />
 
