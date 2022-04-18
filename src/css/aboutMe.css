@@ -56,7 +56,7 @@
 }
 
 .wrapper-work-card{
-    margin-bottom: 10vmin;
+    margin-bottom: 8vmin;
 }
 .wrapper-study-card{
     margin-bottom: 5vmin;
@@ -100,7 +100,7 @@
 
 ul.description{
     font-size: 1.1rem;
-    padding: 0 0 8vmin;
+    padding: 0 0 2vmin;
     color: var(--white);
     box-sizing: border-box;
     display: block;
