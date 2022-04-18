@@ -26,7 +26,7 @@ import db from "../assets/json/db.json"
 import goodgame from "./ProjectsPage/GoodGame/smallGoodgame.png"
 import crecer from "./ProjectsPage/Crecer/smallCrecer.png"
 import sgr from "./ProjectsPage/SGR/bigwindow.png"
-import profile from "../assets/img/profile.jpg"
+import profile from "../assets/img/profile.png"
 
 class Index extends React.Component {
   state = {
