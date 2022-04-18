@@ -10,7 +10,7 @@
 }
 
 .navigation-inner{
-    max-width: 80%;
+    max-width: 90%;
     height: 100%;
     margin: 0 auto;
     padding: .5rem 1.5rem;
@@ -29,6 +29,9 @@
 
 .navigation nav a.brand{
     font-size: 1rem;
+}
+.navigation nav a.brand img{
+    padding-right: .7rem;
 }
 .navigation nav a.brand span{
     white-space: nowrap;

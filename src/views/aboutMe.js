@@ -17,7 +17,7 @@ const AboutMe = () => {
 
             <div class="wrapper-about-me-title">
                 <h1>About me</h1>
-                <p class="description">Software Developer, always learning, if I'm not at the movies, I'm cooking.</p>
+                <p class="description">Software Developer, always learning, if I'm not at the movies, I'm making pixel art.</p>
             </div>
 
             <div className="wrapper-work medium">

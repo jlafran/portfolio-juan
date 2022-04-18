@@ -1,6 +1,7 @@
 import styles from "./navbar.css"
 import { Icon } from '@iconify/react';
 import { HashLink } from "react-router-hash-link";
+import icon from "../../assets/favicon.ico"
 
 const Header = () => {
     const height= "2vmax"
@@ -12,6 +13,7 @@ const Header = () => {
                 <div className="navigation-inner">
                     <nav className="brand-section">
                         <a className="brand semibold" href="/">
+                            <img src={icon} height="50px" width="50px"/>
                             <span>Juan Cruz Lafranconi</span>
                         </a>
                     </nav>
