@@ -17,14 +17,6 @@
 }
 
 
-/* CUSTOM CURSOR */
-.hasCursor {
-  cursor: -webkit-image-set(url(../assets/img/projects/i-circle--white@2x.png) 1x, url(../assets/img/projects/i-circle--orange@2x.png) 2x) 7 7,pointer;
-}
-
-.hasCursorORANGE {
-  cursor: -webkit-image-set(url(../assets/img/projects/i-circle--orange@2x.png) 1x, url(../assets/img/projects/i-circle--orange@2x.png) 2x) 7 7,pointer;
-}
 
 /* BODY */
 

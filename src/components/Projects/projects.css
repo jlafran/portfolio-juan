@@ -45,7 +45,7 @@ hr.line {
     z-index: 3;
     flex-wrap: wrap;
     display: grid;
-    grid-template-columns: 24vmax 1fr 1fr;
+    grid-template-columns: 24vmax 1fr 1fr 1fr;
     color: var(--font_color);
     text-align: left;
     display: relative;
@@ -96,7 +96,7 @@ hr.line {
     width: 5vmax;
   }
   .wrapper-icon{
-    display: none;
+    display: flex;
     justify-content: flex-end;
     padding-right: 3vmax;
   }

@@ -90,7 +90,7 @@ class Index extends React.Component {
                 link1="/proyectos/goodgame"
 
                 title2="Crecer"
-                text2="Is a web application that allows parents to register pediatric controls, measurements and vaccines calendar and also be able to edit and create new profiles for your children."
+                text2="Is a web application that allows parents to register pediatric controls, measurements and vaccines. Also edit and create new profiles for your children."
                 img2={crecer}
                 link2="/proyectos/crecer"
 

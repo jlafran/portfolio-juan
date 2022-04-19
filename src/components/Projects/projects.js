@@ -16,11 +16,11 @@ const Projects = (props) => {
                     </div>
 
                     <div className="title-text-big">
-                      <p className="bold  hasCursor">{title1}</p>
+                      <p className="bold  hasCursorORANGE">{title1}</p>
                     </div>
 
                     <div className="text-small">
-                      <p className="middle  hasCursor">{text1}</p>
+                      <p className="middle  hasCursorORANGE">{text1}</p>
                     </div>
 
                     <div className='wrapper-icon'>
