@@ -9,7 +9,7 @@ const Projects = (props) => {
           <p className="extrabold tittle">Proyectos</p>
           <hr className='line' ></hr>
               <a href={link1} style={{cursor:"unset"}}>
-                <div className="text-tag center line">
+                <div className="text-tag center line hasCursorORANGE">
 
                     <div className="img-container" >
                       <img src={img1} alt="GoodGame" placeholder="GoodGame"></img>
@@ -32,7 +32,7 @@ const Projects = (props) => {
                 </a>
 
                 <a href={link2} style={{cursor:"unset"}}>
-                  <div className="text-tag center line">
+                  <div className="text-tag center line hasCursorORANGE">
                     <div className="img-container" >
                     <img src={img2} alt="Crecer" placeholder="Crecer"></img>
                     </div>
@@ -53,7 +53,7 @@ const Projects = (props) => {
                </a>
 
                 <a href={link3} style={{cursor:"unset"}}>
-                  <div className="text-tag center line">
+                  <div className="text-tag center line hasCursorORANGE">
                     <div className="img-container" >
                     <img src={img3} alt="SGR" placeholder="SGR"></img>
                     </div>
