@@ -6,7 +6,7 @@ const Projects = (props) => {
     return (
       <>
     <div className="wrapper hasCursor">
-          <p className="extrabold tittle">Proyectos</p>
+          <p className="extrabold tittle">Projects</p>
           <hr className='line' ></hr>
               <a href={link1} style={{cursor:"unset"}}>
                 <div className="text-tag center line hasCursorORANGE">
