@@ -53,7 +53,7 @@ class Index extends React.Component {
           <div className="aboutme">
             <AboutMe
               title="Hey, I'm Juan Cruz."
-              text="I'm studying software engineering at UADE (Argentine University of Enterprise) 🇦🇷."
+              text="I'm studying Computer Science at UADE (Argentine University of Enterprise) 🇦🇷."
               link=""
               text2=" Recently finished a Backend course on CoderHouse, and worked at Pwc . This is a curated list of stuff I've done over the years!"
               footer="📖 More about me"

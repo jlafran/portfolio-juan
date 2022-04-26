@@ -150,7 +150,7 @@ const AboutMe = () => {
 
                 <div className='wrapper-study-card'>
                      <h3 className="title-work">
-                     Bachelor of Information Technology Management
+                     Bachelor Computer Systems
                         <span>2018 - 2023</span>
                      </h3>
 
