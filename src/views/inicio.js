@@ -41,6 +41,7 @@ class Index extends React.Component {
     </style>
 
     <Header/>
+    <div style={{backgroundColor: "#141621"}}>
     <section className="HelloYou flex h-screen">
         <Fragment>
           <HelloYou appearBaseDelay={80} appearElementsDelay={300} />
@@ -109,6 +110,7 @@ class Index extends React.Component {
             <Footer/>
 
           </section>
+          </div>
   </>
 
     )

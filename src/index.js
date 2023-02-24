@@ -36,9 +36,9 @@ ReactDOM.render(
 
       <Route path='/me' exact component={AboutMe}/>
       
-      <Route path='/proyectos/crecer' exact component={Crecer}/>
-      <Route path='/proyectos/sgr' exact component={SGR}/>
-      <Route path='/proyectos/goodgame' exact component={GoodGame}/>
+      <Route path='/crecer' exact component={Crecer}/>
+      <Route path='/sgr' exact component={SGR}/>
+      <Route path='/goodgame' exact component={GoodGame}/>
 
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />
