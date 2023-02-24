@@ -2,7 +2,6 @@ import styles from '../css/aboutMe.css'
 import { HashLink } from "react-router-hash-link";
 import Header from '../components/Navbar/navbar';
 import Footer from "../components/Footer/footer";
-import cv from "../assets/cv.pdf"
 
 
 const AboutMe = () => {
@@ -24,7 +23,7 @@ const AboutMe = () => {
             <div className="wrapper-work medium">
                 <p>Hey, I'm Juan Cruz Lafranconi! I'm a software developer working in Buenos Aires, Argentina. Welcome to my spot for <HashLink smooth to="/#projects" className='semibold'>projects</HashLink> I've created, <HashLink smooth to="/#frameworks" className='semibold'>technologies</HashLink> I've learned and hopefully <a href="mailto:juanolafranconi@gmail.com"  title="Mail" target="_blank" rel="noopener noreferrer" className='semibold'>connect</a> with people.</p>
                 <p>I believe any skill can be learned, personality is inherent. I'm always challenging myself, learning new stuff, and asking questions. Fueled by high energy levels and boundless enthusiasm, I'm easily inspired and more than willing to take new challenges head on. I'm passionate, expressive and love to turn ideas into reality.</p>
-                <p>I'm a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. I like to develop expertise in a number of areas over the course of my life and career. You can read more about my biography, experience, skills, education and <a href={cv}  title="CV" download className='semibold'>resume</a> bellow.</p>
+                <p>I'm a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. I like to develop expertise in a number of areas over the course of my life and career. You can read more about my biography, experience, skills and education bellow.</p>
             </div>
 
             <section className="wrapper-work">
