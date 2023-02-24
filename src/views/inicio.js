@@ -88,17 +88,17 @@ class Index extends React.Component {
                 title1="GoodGame"
                 text1="Is a platform that connects testers with video games studios, testers can be hired to report bugs or give feedback through the site."
                 img1={goodgame}
-                link1="/proyectos/goodgame"
+                link1="/goodgame"
 
                 title2="Crecer"
                 text2="Is a web application that allows parents to register pediatric controls, measurements and vaccines. Also edit and create new profiles for your children."
                 img2={crecer}
-                link2="/proyectos/crecer"
+                link2="/crecer"
 
                 title3="Sociedad de Garantía Recíproca"
                 text3="Is a Java desktop application to manage bank guarantees, savings accounts, credit cooperatives, customers, and suppliers."
                 img3={sgr}
-                link3="/proyectos/sgr"
+                link3="/sgr"
               />
               </div>
             </div>
