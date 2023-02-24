@@ -144,8 +144,8 @@ export default class GoodGame extends React.Component {
             <UpNext
               smallNext={smallNext}
               smallPrevious={smallPrevious}
-              urlPrevious="/proyectos/sgr"
-              urlNext="/proyectos/crecer"
+              urlPrevious="/sgr"
+              urlNext="/crecer"
             />
             {/********** FOOTER ***************/}
             <Footer/>

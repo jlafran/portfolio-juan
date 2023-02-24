@@ -119,8 +119,8 @@ export default class Crecer extends React.Component {
             <UpNext
               smallNext={smallNext}
               smallPrevious={smallPrevious}
-              urlPrevious="/proyectos/goodgame"
-              urlNext="/proyectos/sgr"
+              urlPrevious="/goodgame"
+              urlNext="/sgr"
             />
 
             {/********** FOOTER ***************/}

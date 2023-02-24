@@ -120,8 +120,8 @@ export default class SGR extends React.Component {
       <UpNext
         smallNext={smallNext}
         smallPrevious={smallPrevious}
-        urlPrevious="/proyectos/crecer"
-        urlNext="/proyectos/goodgame"
+        urlPrevious="/crecer"
+        urlNext="/goodgame"
       />
       
       {/********** FOOTER ***************/}
