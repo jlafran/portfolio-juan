@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-juan/static/css/main.8377b64d.css",
-    "main.js": "/portfolio-juan/static/js/main.7c3fac0a.js",
+    "main.js": "/portfolio-juan/static/js/main.669d2fe7.js",
     "static/media/Crecer_1080p.mp4": "/portfolio-juan/static/media/Crecer_1080p.a5a3e1305480a1ccbd63.mp4",
     "static/media/GoodGame_1080p.mp4": "/portfolio-juan/static/media/GoodGame_1080p.cd1bb3c40468610e11e9.mp4",
     "static/media/allDevices.png": "/portfolio-juan/static/media/allDevices.e836e93c0af205b3dfc9.png",
@@ -43,10 +43,10 @@
     "static/media/favicon.ico": "/portfolio-juan/static/media/favicon.fa2548a7db24cf68c12f.ico",
     "index.html": "/portfolio-juan/index.html",
     "main.8377b64d.css.map": "/portfolio-juan/static/css/main.8377b64d.css.map",
-    "main.7c3fac0a.js.map": "/portfolio-juan/static/js/main.7c3fac0a.js.map"
+    "main.669d2fe7.js.map": "/portfolio-juan/static/js/main.669d2fe7.js.map"
   },
   "entrypoints": [
     "static/css/main.8377b64d.css",
-    "static/js/main.7c3fac0a.js"
+    "static/js/main.669d2fe7.js"
   ]
 }
