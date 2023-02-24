@@ -18,7 +18,7 @@ const AboutMe = () => {
 
             <div class="wrapper-about-me-title">
                 <h1>About me</h1>
-                <p class="description">Software Developer, always learning, if I'm not at the movies, I'm making pixel art.</p>
+                <p class="description">Software Developer, always learning, if I'm not at the movies, I'm making stuff.</p>
             </div>
 
             <div className="wrapper-work medium">
@@ -33,7 +33,7 @@ const AboutMe = () => {
                 <div className='wrapper-work-card'>
                      <h3 className="title-work">
                         Developer FullStack
-                        <span>Dic 2021 - Mar 2022</span>
+                        <span>Dic 2021 - May 2022</span>
                      </h3>
 
                      <p className="company-work">
@@ -43,13 +43,13 @@ const AboutMe = () => {
                      </p>
 
                     <ul className="medium description">
-                        <li>Developed an internal CRUD web application in MERN to record and track requests from industry and neighborhood councils.</li>
+                        <li>Developed an internal CRUD web application with Java Spring to record and track requests from industry and neighborhood councils.</li>
                         <li>Data analysis and graphs included to visualize the success rate and categorize cases.</li>
                     </ul>
                     <div className="regular techs">
-                        <code>Node js</code>
-                        <code>Express</code>
-                        <code>MongoDB</code>
+                        <code>Java</code>
+                        <code>Spring</code>
+                        <code>PostgreSQL</code>
                         <code>React</code>
                         <code>Chart js</code>
                         <code>CSS</code>
@@ -101,7 +101,7 @@ const AboutMe = () => {
                      </p>
 
                     <ul className="medium description">
-                        <li>Developed an internal application in Java 8 and Swing to register new candidates to the data base of our the job bank and courses at the General Directorate of Productive Development. Also, match possible candidates with job opportunities.</li>
+                        <li>Developed an internal application in Java and Spring to register new candidates to the data base of our the job bank and courses at the General Directorate of Productive Development. Also, match possible candidates with job opportunities.</li>
                         <li>Worked with Wifi Marketing installation and captive portals integration.</li>
                         <li>Developed courses for entrepreneurs and start-ups on programing and business plan development.</li>
                         <li>Plan and Coodinate monthly events with different companies and organizations from each industry to generate new job opportunities for our job bank.</li>
@@ -110,7 +110,6 @@ const AboutMe = () => {
                         <code>Coordination</code>
                         <code>Teach</code>
                         <code>Java 8</code>
-                        <code>Swing</code>
                         <code>Spring</code>
                         <code>Hibernate</code>
                     </div>
